@@ -1,9 +1,8 @@
-import yaml
+from model.holder import Holder
 
 
-class Talent(yaml.YAMLObject):
+class Talent(Holder):
     yaml_tag = u"Talent"
-    class_name: str = None
     talent_name: str = None
     talent_description: str = None
     talent_level: int = None

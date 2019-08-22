@@ -1,11 +1,14 @@
 from abc import ABC, abstractmethod
-from typing import List
+from functools import reduce
+from typing import List, Dict
 from bs4 import BeautifulSoup
 from mocks import mock_accessor
 
 import libhtml
 import logging
 import urllib.request
+
+from model.holder import Holder
 
 
 class ParserContent:
@@ -25,6 +28,8 @@ class ParserArgument:
 
 class ParserHolder(ABC):
     logger = logging.getLogger("PathfinderParser")
+    holders_map: Dict[str, Dict[str, Holder]] = {}
+    current_file: str = None
 
     @abstractmethod
     def parse_html(self, data_content: ParserContent):
@@ -33,6 +38,23 @@ class ParserHolder(ABC):
     @abstractmethod
     def parse_title(self, title_text):
         pass
+
+    @abstractmethod
+    def generate_holder(self) -> Holder:
+        pass
+
+    @abstractmethod
+    def get_class_name(self):
+        pass
+
+    def _create_or_retrieve(self, key):
+        if self.current_file not in self.holders_map:
+            self.holders_map[self.current_file] = {}
+        current_map = self.holders_map[self.current_file]
+        if key not in current_map:
+            holder = self.generate_holder()
+            current_map[key] = holder
+        return current_map[key]
 
     def __init__(self, parser_arguments: List[ParserArgument]):
         self.parser_arguments = parser_arguments
@@ -61,10 +83,19 @@ class ParserHolder(ABC):
             ]
         return data_contents
 
+    def __write_class_name(self):
+        for holder in self.holders_map[self.current_file].values():
+            holder.class_name = self.get_class_name()
+
     def run(self, use_mock=False):
         data_contents = self.__parse_arguments(use_mock)
-        data_holders = []
         for data_content in data_contents:
+            self.current_file = data_content.url
             self.parse_title(libhtml.cleanInlineDescription(data_content.content.select_one("h1.pagetitle").string))
-            data_holders.extend(self.parse_html(data_content))
-        return data_holders
+            self.parse_html(data_content)
+            self.__write_class_name()
+
+        flatten_holder = []
+        for file_map in list(self.holders_map.values()):
+            flatten_holder.extend(list(file_map.values()))
+        return flatten_holder
