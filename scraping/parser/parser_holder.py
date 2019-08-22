@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from asyncio import log
 from functools import reduce
 from typing import List, Dict
 from bs4 import BeautifulSoup
@@ -84,8 +85,11 @@ class ParserHolder(ABC):
         return data_contents
 
     def __write_class_name(self):
-        for holder in self.holders_map[self.current_file].values():
-            holder.class_name = self.get_class_name()
+        if self.current_file not in self.holders_map:
+            self.logger.warning("Couldn't find values for the file : {file_name}".format(file_name=self.current_file))
+        else:
+            for holder in self.holders_map[self.current_file].values():
+                holder.class_name = self.get_class_name()
 
     def run(self, use_mock=False):
         data_contents = self.__parse_arguments(use_mock)

@@ -14,3 +14,7 @@ def save_yaml(file_name, datas: List):
         file_path.touch()
     file = file_path.open('w')
     yaml.dump_all(datas, default_flow_style=False, allow_unicode=True, stream=file)
+
+
+def print_yaml(datas: List):
+    print(yaml.dump_all(datas, default_flow_style=False, allow_unicode=True))
