@@ -2,22 +2,21 @@ from typing import Dict
 
 from scraping.parser.parser_content import ParserContent
 from scraping.main import libhtml
-from scraping.parser.parser_holder import ParserHolder
+from scraping.parser.parser_for_holder import ParserForHolder
 from scraping.model.classe import Classe
 from scraping.model.holder import Holder
 from scraping.util import data_util
 
 
-class ClassParserHolder(ParserHolder):
+class ClassParserHolder(ParserForHolder):
 
-    def generate_holder(self) -> Holder:
+    class_name: str = None
+
+    def create_data(self) -> Holder:
         return Classe()
 
     def get_class_name(self):
         return self.class_name
-
-    class_name: str = None
-    talents_map: Dict[str, Classe] = {}
 
     @staticmethod
     def __retrieve_competence_text(competences_anchor):

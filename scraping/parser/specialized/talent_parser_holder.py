@@ -3,12 +3,12 @@ import re
 from scraping.parser.parser_content import ParserContent
 from scraping.model.holder import Holder
 from scraping.model.talent import Talent
-from scraping.parser.parser_holder import ParserHolder
+from scraping.parser.parser_for_holder import ParserForHolder
 from scraping.util import data_util
 from scraping.main import libhtml
 
 
-class TalentParserHolder(ParserHolder):
+class TalentParserHolder(ParserForHolder):
 
     class_name: str = None
 
@@ -19,7 +19,7 @@ class TalentParserHolder(ParserHolder):
         talent_name = talent_name.replace("’", "'")
         return talent_name
 
-    def generate_holder(self) -> Holder:
+    def create_data(self) -> Holder:
         return Talent()
 
     def parse_title(self, title_text: str):

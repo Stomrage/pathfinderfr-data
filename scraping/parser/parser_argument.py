@@ -1,5 +1,5 @@
 class ParserArgument:
-    def __init__(self, url: str, mock: str = None):
+    def __init__(self, url: str = None, mock: str = None):
         self.url = url
         self.mock = mock
 

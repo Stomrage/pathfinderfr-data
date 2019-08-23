@@ -1,52 +1,40 @@
-from abc import ABC, abstractmethod
-from typing import List, Dict
-from bs4 import BeautifulSoup
 import logging
-import urllib.request
+from urllib import request
+from abc import abstractmethod, ABC
+from typing import List, TypeVar, Dict, Generic
 
+from bs4 import BeautifulSoup
+
+from scraping.main import libhtml
+from scraping.mocks import mock_accessor
 from scraping.parser.parser_argument import ParserArgument
 from scraping.parser.parser_content import ParserContent
-from scraping.mocks import mock_accessor
-from scraping.main import libhtml
-from scraping.model.holder import Holder
+
+T = TypeVar("T")
 
 
-class ParserHolder(ABC):
+class Parser(Generic[T], ABC):
     logger = logging.getLogger("PathfinderParser")
-    holders_map: Dict[str, Dict[str, Holder]] = {}
+    data_map: Dict[str, Dict[str, T]]
     current_file: str = None
-
-    @abstractmethod
-    def parse_html(self, data_content: ParserContent):
-        pass
-
-    @abstractmethod
-    def parse_title(self, title_text):
-        pass
-
-    @abstractmethod
-    def generate_holder(self) -> Holder:
-        pass
-
-    @abstractmethod
-    def get_class_name(self):
-        pass
-
-    def _create_or_retrieve(self, key):
-        if self.current_file not in self.holders_map:
-            self.holders_map[self.current_file] = {}
-        current_map = self.holders_map[self.current_file]
-        if key not in current_map:
-            holder = self.generate_holder()
-            current_map[key] = holder
-        return current_map[key]
 
     def __init__(self, parser_arguments: List[ParserArgument]):
         self.parser_arguments = parser_arguments
+        self.data_map = {}
+        self.current_file = None
+
+    def _create_or_retrieve(self, key):
+        if self.current_file not in self.data_map:
+            self.data_map[self.current_file] = {}
+        current_map = self.data_map[self.current_file]
+        if key not in current_map:
+            holder = self.create_data()
+            current_map[key] = holder
+        return current_map[key]
 
     def retrieve_url(self, url):
         self.logger.debug("Accessing url : {url}".format(url=url))
-        return urllib.request.urlopen(url).read()
+        return request.urlopen(url).read()
 
     def __parse_arguments(self, use_mock):
         if use_mock:
@@ -68,22 +56,31 @@ class ParserHolder(ABC):
             ]
         return data_contents
 
-    def __write_class_name(self):
-        if self.current_file not in self.holders_map:
-            self.logger.warning("Couldn't find values for the file : {file_name}".format(file_name=self.current_file))
-        else:
-            for holder in self.holders_map[self.current_file].values():
-                holder.class_name = self.get_class_name()
-
     def run(self, use_mock=False):
         data_contents = self.__parse_arguments(use_mock)
         for data_content in data_contents:
             self.current_file = data_content.url
             self.parse_title(libhtml.cleanInlineDescription(data_content.content.select_one("h1.pagetitle").string))
             self.parse_html(data_content)
-            self.__write_class_name()
+            self.abstract_run()
 
         flatten_holder = []
-        for file_map in list(self.holders_map.values()):
+        for file_map in list(self.data_map.values()):
             flatten_holder.extend(list(file_map.values()))
         return flatten_holder
+
+    @abstractmethod
+    def parse_html(self, data_content: ParserContent):
+        pass
+
+    @abstractmethod
+    def parse_title(self, title_text):
+        pass
+
+    @abstractmethod
+    def create_data(self) -> T:
+        pass
+
+    @abstractmethod
+    def abstract_run(self):
+        pass
