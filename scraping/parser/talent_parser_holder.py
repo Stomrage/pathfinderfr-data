@@ -1,11 +1,10 @@
-from model.holder import Holder
-from model.talent import Talent
-from parser.parser_holder import ParserHolder, ParserContent
-from typing import Dict
-
-from util import data_util
-import libhtml
 import re
+
+from scraping.model.holder import Holder
+from scraping.model.talent import Talent
+from scraping.parser.parser_holder import ParserHolder, ParserContent
+from scraping.util import data_util
+from scraping.main import libhtml
 
 
 class TalentParserHolder(ParserHolder):

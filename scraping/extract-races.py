@@ -2,13 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import urllib.request
-import yaml
-import sys
-import html
 from bs4 import BeautifulSoup
-from lxml import html
 
-from libhtml import jumpTo, html2text, cleanSectionName, cleanInlineDescription, extractLevel, mergeYAML
+from main.libhtml import jumpTo, mergeYAML
 
 ## Configurations pour le lancement
 MOCK_RACE = None

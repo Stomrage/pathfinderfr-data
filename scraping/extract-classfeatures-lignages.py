@@ -2,14 +2,10 @@
 # -*- coding: utf-8 -*-
 
 import urllib.request
-import yaml
-import sys
-import html
 import re
 from bs4 import BeautifulSoup
-from lxml import html
 
-from libhtml import findProperty, jumpTo, extractLevel, html2text, mergeYAML
+from main.libhtml import findProperty, jumpTo, extractLevel, mergeYAML
 
 ## Configurations pour le lancement
 MOCK_LIGNAGE = None

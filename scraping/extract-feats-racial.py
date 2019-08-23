@@ -2,14 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import urllib.request
-import yaml
-import sys
-import html
-import re
 from bs4 import BeautifulSoup
-from lxml import html
 
-from libhtml import html2text, mergeYAML
+from main.libhtml import mergeYAML
 
 ## Configurations pour le lancement
 MOCK_LIST = None

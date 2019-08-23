@@ -3,13 +3,9 @@
 
 import urllib.request
 import yaml
-import sys
-import html
-import re
 from bs4 import BeautifulSoup
-from lxml import html
 
-from libhtml import jumpTo, html2text, cleanSectionName, cleanInlineDescription, extractLevel, mergeYAML
+from main.libhtml import jumpTo, html2text, cleanSectionName, extractLevel, mergeYAML
 
 ## Configurations pour le lancement
 MOCK_CF = None

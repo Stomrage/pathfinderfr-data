@@ -2,14 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import urllib.request
-import yaml
-import sys
-import html
-import re
 from bs4 import BeautifulSoup
-from lxml import html
 
-from libhtml import table2text, extractBD_Type1, extractBD_Type2, html2text, cleanName, mergeYAML
+from main.libhtml import extractBD_Type2, mergeYAML
 
 ## Configurations pour le lancement
 MOCK_MAGIC = None

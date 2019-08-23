@@ -2,14 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import urllib.request
-import yaml
-import sys
-import html
-import re
 from bs4 import BeautifulSoup
-from lxml import html
 
-from libhtml import jumpTo, cleanSectionName, mergeYAML
+from main.libhtml import jumpTo, cleanSectionName, mergeYAML
 
 ## Configurations pour le lancement
 URL = "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Tableau%20r%c3%a9capitulatif%20des%20armes.ashx"

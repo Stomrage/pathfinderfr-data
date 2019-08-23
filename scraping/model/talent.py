@@ -1,4 +1,4 @@
-from model.holder import Holder
+from scraping.model.holder import Holder
 
 
 class Talent(Holder):

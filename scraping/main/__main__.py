@@ -1,8 +1,8 @@
 import logging
 
-from parser.class_parser_holder import ClassParserHolder
-from parser.parser_holder import ParserArgument
-from parser.talent_parser_holder import TalentParserHolder
+from scraping.parser.class_parser_holder import ClassParserHolder
+from scraping.parser.parser_holder import ParserArgument
+from scraping.parser.talent_parser_holder import TalentParserHolder
 
 from data import data_accessor
 

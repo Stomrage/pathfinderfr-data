@@ -1,6 +1,6 @@
 from typing import List, Dict
 
-from model.holder import Holder
+from scraping.model.holder import Holder
 
 
 class Classe(Holder):

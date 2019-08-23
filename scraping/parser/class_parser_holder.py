@@ -1,10 +1,10 @@
 from typing import Dict
 
-import libhtml
-from model.classe import Classe
-from model.holder import Holder
-from parser.parser_holder import ParserHolder, ParserContent
-from util import data_util
+from scraping.main import libhtml
+from scraping.parser.parser_holder import ParserHolder, ParserContent
+from scraping.model.classe import Classe
+from scraping.model.holder import Holder
+from scraping.util import data_util
 
 
 class ClassParserHolder(ParserHolder):

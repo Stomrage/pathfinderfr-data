@@ -1,15 +1,12 @@
 from abc import ABC, abstractmethod
-from asyncio import log
-from functools import reduce
 from typing import List, Dict
 from bs4 import BeautifulSoup
-from mocks import mock_accessor
-
-import libhtml
 import logging
 import urllib.request
 
-from model.holder import Holder
+from scraping.mocks import mock_accessor
+from scraping.main import libhtml
+from scraping.model.holder import Holder
 
 
 class ParserContent:
