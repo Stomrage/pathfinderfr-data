@@ -1,8 +1,9 @@
 import re
 
+from scraping.parser.parser_content import ParserContent
 from scraping.model.holder import Holder
 from scraping.model.talent import Talent
-from scraping.parser.parser_holder import ParserHolder, ParserContent
+from scraping.parser.parser_holder import ParserHolder
 from scraping.util import data_util
 from scraping.main import libhtml
 

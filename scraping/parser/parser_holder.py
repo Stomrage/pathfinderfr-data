@@ -4,24 +4,11 @@ from bs4 import BeautifulSoup
 import logging
 import urllib.request
 
+from scraping.parser.parser_argument import ParserArgument
+from scraping.parser.parser_content import ParserContent
 from scraping.mocks import mock_accessor
 from scraping.main import libhtml
 from scraping.model.holder import Holder
-
-
-class ParserContent:
-    def __init__(self, url: str, content: BeautifulSoup):
-        self.url = url
-        self.content = content
-
-
-class ParserArgument:
-    def __init__(self, url: str, mock: str = None):
-        self.url = url
-        self.mock = mock
-
-    def has_mock(self):
-        return self.mock is not None
 
 
 class ParserHolder(ABC):

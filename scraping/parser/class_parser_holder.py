@@ -1,7 +1,8 @@
 from typing import Dict
 
+from scraping.parser.parser_content import ParserContent
 from scraping.main import libhtml
-from scraping.parser.parser_holder import ParserHolder, ParserContent
+from scraping.parser.parser_holder import ParserHolder
 from scraping.model.classe import Classe
 from scraping.model.holder import Holder
 from scraping.util import data_util
