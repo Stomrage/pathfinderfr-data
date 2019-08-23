@@ -1,23 +1,22 @@
 import logging
 
-from scraping.parser.class_parser_holder import ClassParserHolder
+from scraping.parser.specialized.class_parser_holder import ClassParserHolder
+from scraping.parser.specialized.talent_parser_holder import TalentParserHolder
 from scraping.parser.parser_holder import ParserArgument
-from scraping.parser.talent_parser_holder import TalentParserHolder
 
 from data import data_accessor
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    # talent_args = [
-    #     ParserArgument(
-    #         url="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.talents.ashx", mock="roublard-talents.html"),
-    #     ParserArgument(
-    #         url="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Talents%20(enqu%C3%AAteur).ashx", mock="enqueteur-talents.html")
-    # ]
-    # talent_parser_holder = TalentParserHolder(talent_args)
-    # talents = talent_parser_holder.run(use_mock=True)
-    # data_accessor.save_yaml("new_talents.yaml", talents)
-    # print(*talents)
+    talent_args = [
+        ParserArgument(
+            url="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.talents.ashx", mock="roublard-talents.html"),
+        ParserArgument(
+            url="http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Talents%20(enqu%C3%AAteur).ashx", mock="enqueteur-talents.html")
+    ]
+    talent_parser_holder = TalentParserHolder(talent_args)
+    talents = talent_parser_holder.run(use_mock=True)
+    data_accessor.save_yaml("new_talents.yaml", talents)
 
     class_args = [
         ParserArgument(
