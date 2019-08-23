@@ -15,6 +15,7 @@ T = TypeVar("T")
 
 class Parser(Generic[T], ABC):
     logger = logging.getLogger("PathfinderParser")
+    PATHFINDER_FR_URL = "http://www.pathfinder-fr.org/Wiki/"
     data_map: Dict[str, Dict[str, T]]
     current_file: str = None
 
