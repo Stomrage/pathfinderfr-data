@@ -1,5 +1,6 @@
+import html
 import logging
-from urllib import request
+from urllib import request, parse
 from abc import abstractmethod, ABC
 from typing import List, TypeVar, Dict, Generic
 
