@@ -19,7 +19,7 @@ class ArchetypeParserArgument(ParserForArgument):
                 for archetype_anchor
                 in data_content.content.select("div.presentation.navmenudroite > ul > li > a")])
         for anchor_link in filtered_anchor_link:
-            self._create_or_retrieve(anchor_link).url = self.PATHFINDER_FR_URL+anchor_link
+            self.add_data(self.PATHFINDER_FR_URL+anchor_link)
 
     def parse_title(self, title_text):
         pass

@@ -3,13 +3,25 @@ from typing import List
 
 from scraping.model.holder import Holder
 from scraping.parser.parser import Parser
-from scraping.parser.parser_argument import ParserArgument
 
 
 class ParserForHolder(Parser[Holder], ABC):
 
-    def __init__(self, parser_arguments: List[ParserArgument]):
-        super().__init__(parser_arguments)
+    @abstractmethod
+    def create_data(self) -> Holder:
+        pass
+
+    def _create_or_retrieve(self, key):
+        if self.current_file not in self.data_map:
+            self.data_map[self.current_file] = {}
+        current_map = self.data_map[self.current_file]
+        if key not in current_map:
+            holder = self.create_data()
+            current_map[key] = holder
+        return current_map[key]
+
+    def __init__(self, parser_urls: List):
+        super().__init__(parser_urls)
 
     @abstractmethod
     def get_class_name(self):
