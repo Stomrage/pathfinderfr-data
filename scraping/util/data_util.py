@@ -1,3 +1,6 @@
+from typing import List
+import re
+
 import unidecode
 
 archetype_names = [
@@ -472,36 +475,27 @@ competence_names = ["Acrobaties",
                     "Vol"]
 
 
+def __verify_text_correspondence(text: str, words: List[str]):
+    normalized_text = unidecode.unidecode(text.lower().replace("-", " "))
+    normalized_words = list(map(lambda x: unidecode.unidecode(x.lower()), words))
+    return list(filter(lambda x: x == normalized_text, normalized_words))
+
+
 # TODO refractor this function to a single function that take an array an transform it back to an array of match
 def verify_archetype(text: str):
-    #TODO fix on the website on https://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Les%20arch%C3%A9types%20de%20classes.ashx
-    #TODO The title for the link Maitre Invocateur is called Maitre Conjurateur
-    #FIX MAITRE INVOCATEUR
+    # TODO fix on the website on https://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Les%20arch%C3%A9types%20de%20classes.ashx
+    # TODO The title for the link Maitre Invocateur is called Maitre Conjurateur
+    # FIX MAITRE INVOCATEUR
     if text == "Maître Conjurateur":
         text = "Maitre Invocateur"
-    #ENDFIX MAITRE INVOCATEUR
-
-    archetypes = []
-    lower_text = text.lower().replace("-", " ")
-    lower_text = unidecode.unidecode(lower_text)
-    for archetype_name in archetype_names:
-        if unidecode.unidecode(archetype_name.lower()) == lower_text:
-            archetypes.append(archetype_name)
-    return archetypes
+    # ENDFIX MAITRE INVOCATEUR
+    return __verify_text_correspondence(text, archetype_names)
 
 
 def verify_class(text: str):
-    lower_text = text.lower()
-    for class_name in class_names:
-        if class_name.lower() in lower_text:
-            return class_name
-    return None
+    text = re.search("(?:[Ll][ae] |[Ll]')?([^() ]*)(?: \(.*\))?", text)[1]
+    return __verify_text_correspondence(text, class_names)
 
 
 def verify_competence(text: str):
-    competences = []
-    lower_text = text.lower()
-    for competence_name in competence_names:
-        if competence_name.lower() in lower_text:
-            competences.append(competence_name)
-    return competences
+    return __verify_text_correspondence(text, competence_names)
