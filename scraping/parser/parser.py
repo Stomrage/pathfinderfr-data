@@ -50,7 +50,7 @@ class Parser(Generic[T], ABC):
                     content=BeautifulSoup(self.retrieve_url(parser_argument), features="lxml").body
                 ))
             elif mock_option == MockOption.UPDATE_MOCK:
-                mock_accessor.creat_mock_file(holder=self.__class__.__name__, filename=parser_argument, data=self.retrieve_url(parser_argument))
+                mock_accessor.create_mock_file(holder=self.__class__.__name__, filename=parser_argument, data=self.retrieve_url(parser_argument))
 
     def __run_one(self, data_content):
         self.logger.debug("Parsing data from : {url}".format(url=data_content.url))
