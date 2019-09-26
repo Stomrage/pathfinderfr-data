@@ -10,23 +10,23 @@ from data import data_accessor
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    talent_parser_holder_args = [
-            "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.talents.ashx",
-            "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Talents%20(enqu%C3%AAteur).ashx"
-    ]
-    talent_parser_holder = TalentParserHolder(talent_parser_holder_args)
-    talents = talent_parser_holder.run(mock_option=MockOption.ONLY_MOCK)
-    data_accessor.save_yaml("new_talents.yaml", talents)
+    # talent_parser_holder_args = [
+    #         "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.talents.ashx",
+    #         "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Talents%20(enqu%C3%AAteur).ashx"
+    # ]
+    # talent_parser_holder = TalentParserHolder(talent_parser_holder_args)
+    # talents = talent_parser_holder.run(mock_option=MockOption.ONLY_MOCK)
+    # data_accessor.save_yaml("new_talents.yaml", talents)
 
-    class_parser_holder_args = [
-            "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Alchimiste.ashx",
-            "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Antipaladin.ashx",
-            "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Inquisiteur.ashx",
-            "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arpenteur%20dhorizon.ashx"
-    ]
-    class_parser_holder = ClassParserHolder(class_parser_holder_args)
-    classes = class_parser_holder.run(mock_option=MockOption.ONLY_MOCK)
-    data_accessor.save_yaml("new_classes.yaml", classes)
+    # class_parser_holder_args = [
+    #         "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Alchimiste.ashx",
+    #         "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Antipaladin.ashx",
+    #         "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Inquisiteur.ashx",
+    #         "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Arpenteur%20dhorizon.ashx"
+    # ]
+    # class_parser_holder = ClassParserHolder(class_parser_holder_args)
+    # classes = class_parser_holder.run(mock_option=MockOption.ONLY_MOCK)
+    # data_accessor.save_yaml("new_classes.yaml", classes)
 
     archetype_parser_argument_args = [
         "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Les%20arch%C3%A9types%20de%20classes.ashx"
