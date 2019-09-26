@@ -25,7 +25,9 @@ class ArchetypeParserHolder(ParserForHolder):
         )
 
     def parse_title(self, title_text):
-        archetype_name = data_util.verify_archetype(title_text)
+        print(title_text)
+        title_search = re.search("([^()]*)(\(.*\))?", title_text)
+        archetype_name = data_util.verify_archetype(title_search[1].strip())
         assert len(archetype_name) == 1
         self.archetype_name = archetype_name[0]
 

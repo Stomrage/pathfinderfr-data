@@ -8,7 +8,7 @@ class ArchetypeParserArgument(ParserForArgument):
 
     def __retrieve_archetype_link(self, archetype_list_anchor):
         archetype_link = archetype_list_anchor["href"]
-        if re.search(r"\([a-zA-Z%0-9]+\)\.ashx$", archetype_link):
+        if re.search(r"\([a-zA-Z%0-9]+\)\.ashx$", archetype_link) and "race" not in archetype_link:
             return archetype_link
         else:
             return None

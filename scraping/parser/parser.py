@@ -1,6 +1,6 @@
-import html
+import re
 import logging
-from urllib import request, parse
+from urllib import request
 from abc import abstractmethod, ABC
 from typing import List, TypeVar, Dict, Generic
 
@@ -54,6 +54,9 @@ class Parser(Generic[T], ABC):
 
     def __run_one(self, data_content):
         self.logger.debug("Parsing data from : {url}".format(url=data_content.url))
+        if data_content.content.select_one("h1.pagetitlesystem:contains('Page Introuvable')"):
+            self.logger.debug("No data can be found at : {url}".format(url=data_content.url))
+            return
         self.current_file = data_content.url
         self.parse_title(libhtml.cleanInlineDescription(data_content.content.select_one("h1.pagetitle").string))
         self.parse_html(data_content)
