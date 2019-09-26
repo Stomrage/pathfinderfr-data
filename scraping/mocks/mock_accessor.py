@@ -5,7 +5,7 @@ import logging
 
 logger = logging.getLogger("MockAccessor")
 
-normalize_regex: str = r"http://www.pathfinder-fr.org/Wiki/(.*)\.ashx"
+normalize_regex: str = r"^https?://www.pathfinder-fr.org/Wiki/(.*)\.ashx"
 
 
 def __normalize_filename(filename):
@@ -22,7 +22,7 @@ def get_mock_file(holder: str, filename: str):
     return str(holder_path.joinpath(__normalize_filename(filename)).open(encoding="utf-8").read())
 
 
-def creat_mock_file(holder: str, filename: str, data: str):
+def create_mock_file(holder: str, filename: str, data: str):
     logger.debug("Creating mocking file : {filename}".format(filename=filename))
     holder_path = Path(__file__).parent.joinpath(holder)
     if not holder_path.exists():
