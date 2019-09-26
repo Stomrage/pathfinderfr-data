@@ -19,7 +19,7 @@ def __normalize_filename(filename):
 def get_mock_file(holder: str, filename: str):
     logger.debug("Accessing mocking file : {filename}".format(filename=filename))
     holder_path = Path(__file__).parent.joinpath(holder)
-    return str(holder_path.joinpath(__normalize_filename(filename)).open().read())
+    return str(holder_path.joinpath(__normalize_filename(filename)).open(encoding="utf-8").read())
 
 
 def creat_mock_file(holder: str, filename: str, data: str):

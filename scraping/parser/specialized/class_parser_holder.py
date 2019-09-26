@@ -1,5 +1,7 @@
 from typing import Dict
 
+import re
+
 from scraping.parser.parser_content import ParserContent
 from scraping.main import libhtml
 from scraping.parser.parser_for_holder import ParserForHolder
@@ -38,7 +40,7 @@ class ClassParserHolder(ParserForHolder):
         progress_list = []
         for tr in progress_table_anchor.select("tr:not(.soustitre, .titre)"):
             td = tr.find_all("td", limit=5)
-            row = [i.text for i in td]
+            row = [i.text for i in   td]
             progress_list.append({
                 "Niveau": int(row[0]),
                 "BBA": row[1],
@@ -52,8 +54,7 @@ class ClassParserHolder(ParserForHolder):
         classe: Classe = self._create_or_retrieve(self.class_name)
         classe.classe_description = \
             (libhtml.html2text(data_content.content.select_one("#PageContentDiv > i"))).replace("\n", "")
-        competence_string = self.__retrieve_competence_text(data_content.content.select_one(
-            "h2.separator:contains('Compétences de classe'), h2.separator:contains('Compétences de la classe')"))
+        competence_string = self.__retrieve_competence_text(data_content.select_and_filter_one_by_regex("h2.separator", re.compile(".*Compétences.*")))
         classe.competence_de_classe = data_util.verify_competence(competence_string)
         classe.de_vie = self.__retrieve_de_vie(
             data_content.content.select_one("b:contains('Dés de vie'), b:contains('Dé de vie')"))
