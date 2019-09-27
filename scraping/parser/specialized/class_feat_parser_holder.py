@@ -8,7 +8,7 @@ from scraping.util import data_util
 from scraping.main import libhtml
 
 
-class TalentParserHolder(ParserForHolder):
+class ClassFeatParserHolder(ParserForHolder):
 
     class_name: str = None
 

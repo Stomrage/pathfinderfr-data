@@ -5,18 +5,18 @@ from scraping.parser.parser_content import ParserContent
 from scraping.parser.parser_for_argument import ParserForArgument
 
 
-class ClassParserArgument(ParserForArgument):
+class ClassFeatParserArgument(ParserForArgument):
 
-    def __retrieve_class_link(self, class_list_anchor):
-        class_search = re.search("\.?/?(.*)", class_list_anchor["href"])
-        return class_search[1]
+    def __retrieve_class_feat_link(self, class_feat_anchor):
+        return class_feat_anchor["href"]
 
     def parse_html(self, data_content: ParserContent):
         filtered_anchor_link = filter(lambda archetype_link: archetype_link is not None,
-                                      [self.__retrieve_class_link(archetype_anchor)
+                                      [self.__retrieve_class_feat_link(archetype_anchor)
                                        for archetype_anchor
-                                       in data_content.content.select(
-                                          "div.presentation.navmenu:has(>h2.separator:not(:contains('occultes'))) > table > tr > center > table > tr > td > a")])
+                                       in data_content.select_and_filter_by_regex(
+                                          "#PageContentDiv div.fright > b > i > a, #PageContentDiv div[style*='float:right'] > b > i > a",
+                                          re.compile(".*(?:pouvoirs|talents|exploits).*", re.IGNORECASE))])
         for anchor_link in filtered_anchor_link:
             self.add_data(self.PATHFINDER_FR_URL + parse.quote(parse.unquote(anchor_link)))
 
