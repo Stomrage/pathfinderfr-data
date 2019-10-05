@@ -1,0 +1,2180 @@
+!<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Résistance à l’énergie, majeur, niveau 12Lorsqu’il
+  est en rage et une fois par jour, le barbare peut absorber l’énergie d’une unique
+  attaque s’il s’agit du même type d’énergie que celui qu’il a choisi. Il n’a pas
+  besoin de faire de jet de sauvegarde et ne subit aucun dommage. Il gagne à la place
+  1 pv temporaire par tranche de 3 points de dégâts que l’attaque aurait infligés,
+  et ce jusqu’à la fin de sa rage.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Totem draconique, Résilience totémique draconique,
+  niveau 10Quand un barbare choisit ce pouvoir de rage, il obtient Vol (Dex) comme
+  compétence de classe. Quand il est enragé et qu’il porte une armure intermédiaire
+  ou plus légère, il peut dépenser une action simple pour générer une paire d’ailes
+  draconiques spirituelles qui lui donnent une vitesse de vol égale à sa vitesse de
+  base (manœuvrabilité moyenne). Il peut dépenser 2 rounds de rage pour obtenir cette
+  vitesse de vol par une action immédiate. Il peut renvoyer les ailes quand il le
+  souhaite, même si ce n’est pas son tour. Chaque round où il est enragé et qu’il
+  vole consomme 2 rounds de rage. Il ne peut plus voler dès qu’il n’est plus en rage.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Animal totem mineur, niveau 6Lorsqu’il est en
+  rage, le barbare bénéficie d’un bonus d’armure naturelle de +1, +1 par tranche de
+  quatre niveaux.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Animal totem, niveau 10Lorsqu’il est en rage,
+  le barbare acquiert la capacité spéciale bond et peut ainsi porter une attaque à
+  outrance lorsqu’il termine sa charge. De plus, ses griffes infligent 1d8 points
+  de dégâts (1d6 s’il est de taille P), triplés sur un coup critique.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage, le barbare gagne deux attaques de griffes,
+  qui sont considérées comme des attaques primaires et doivent être portées avec le
+  BBA maximum. Les griffes infligent 1d6 points de dégâts d’armes tranchantes (1d4
+  s’il est de taille P), auquel on ajoute le modificateur de Force du personnage.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Avance dominatrice, niveau 6Lorsqu’il est en
+  rage, le barbare peut renverser plus d’une cible par round s’il accepte une pénalité
+  cumulative de -2 à son BMO pour chaque test de renversement qu’il effectue après
+  le premier.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage et s’il réussit une manoeuvre de renversement,
+  le barbare inflige des dégâts égaux à son bonus de Force.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage, le barbare bénéficie du don science
+  du combat à mains nues. S’il a déjà choisi ce don, ses coups infligent 1d6 points
+  de dégâts (1d4 s’il est de taille P).
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : BagarreurLorsqu’il est en rage, le barbare bénéficie
+  du don combat à deux armes quand il porte des attaques à mains nues.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Compagnon animalLorsque le barbare est en rage,
+  son compagnon animal bénéficie également des bienfaits de la rage du barbare, bien
+  que le barbare doive pour cela dépenser un round de rage par round, ou deux si le
+  compagnon animal du barbare ne lui est pas adjacent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Bête féroce, niveau 8Lorsqu’il est en rage, le
+  compagnon animal du barbare bénéficie également de tous les pouvoirs de rage de
+  ce dernier dont l''effet est constant.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'Lorsqu’il est en rage et s’il avale une dose d’alcool, le
+  barbare peut relancer un jet de sauvegarde contre l’un des états préjudiciables
+  suivants qui pourraient l’affecter : aveuglé, confus, ébloui, assourdi, épuisé,
+  fatigué, effrayé, nauséeux, paniqué, secoué ou fiévreux. S’il le réussit, l’effet
+  est annulé pour la durée de sa rage. S’il a été empoisonné, il peut utiliser ce
+  pouvoir pour relancer le jet de sauvegarde. Un succès sera comptabilisé dans le
+  nombre de succès requis pour la guérison, mais un échec n’aura aucun effet préjudiciable.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : niveau 6Une fois par rage et par une action simple,
+  le barbare peut frapper le sol autour de lui. Cette attaque touche automatiquement
+  et inflige des dégâts normaux. Cependant, si le personnage parvient à surpasser
+  la solidité du sol, l’espace qu’il occupe et toutes les cases adjacentes deviennent
+  des terrains difficiles. Les créatures qui s’y trouvent (à l’exception du barbare)
+  doivent réussir un jet de Réflexes DD 15 ou être projetées à terre.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Brise roc, niveau 8Quand le barbare utilise le
+  pouvoir de rage Brise roc, il peut augmenter son rayon d’effet de 1,50 m (1 c).
+  Il peut choisir ce pouvoir à trois reprises et cumuler ses effets.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Perturbateur, niveau 12Lorsqu’il entre en rage,
+  le barbare bénéficie gratuitement du don du même nom.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Lorsqu’il est en rage, un barbare bénéficie d’un bonus d’esquive
+  de +1 à sa CA contre les attaques d’opportunité, et ce pour chaque dose d’alcool
+  qu’il a ingérée durant sa rage, jusqu’à un maximum de +1 par tranche de quatre niveaux
+  de barbare.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : SuperstitionLorsqu’il est en rage, le barbare
+  bénéficie d’un bonus de +1 à ses jets de dégâts contre toutes les créatures possédant
+  des sorts ou des pouvoirs magiques, +1 par tranche de quatre niveaux de barbare.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le barbare peut entrer en rage même lorsqu’il est fatigué.
+  Lorsqu’il utilise ce pouvoir pour entrer en rage, le barbare est immunisé à l’état
+  préjudiciable fatigué mais, lorsque la rage se termine, il est alors épuisé pendant
+  dix minutes par round passé en rage.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Coup puissant, niveau 8Quand le barbare utilise
+  son pouvoir de Coup puissant, il peut renoncer au bonus normal (et aux dégâts de
+  saignement du pouvoir Coup hémorragique ou autres qui améliorent les dégâts de ce
+  pouvoir) et infliger à la place 1 point d’affaiblissement de caractéristique à la
+  Force ou à la Dextérité de la cible pour chaque tranche de quatre niveaux de barbare.
+  La cible a droit à un jet de Vigueur, 1/2 dégâts (DD = 10 + 1/2 niveau de barbare
+  + modificateur de Force du barbare).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Coup puissant, niveau 8Quand le barbare utilise
+  son pouvoir de coup puissant, il inflige aussi un montant de points de saignement
+  égal au bonus de dégâts qu’il obtient grâce au coup puissant. Ce saignement ignore
+  la résistance aux dégâts.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : niveau 8Le barbare peut porter une attaque d’opportunité
+  contre un ennemi qui entre dans la zone qu’il contrôle, que ce mouvement provoque
+  normalement une attaque d’opportunité ou pas. Ce pouvoir de rage ne peut être employé
+  qu’une seule fois par rage.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le barbare gagne un bonus de +1 à un jet de dégâts. Ce bonus
+  augmente de +1 par tranche de quatre niveaux de barbare. Ce pouvoir s’active par
+  une action rapide précédant le jet d’attaque et ne peut être employé qu’une seule
+  fois par rage.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : niveau 12Le barbare confirme automatiquement
+  un coup critique. Ce pouvoir s’utilise par une action immédiate lorsqu’une possibilité
+  de coup critique survient. Ce pouvoir de rage ne peut être utilisé qu’une seule
+  fois par rage.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage, le barbare augmente son bonus de moral
+  sur les jets de sauvegarde contre les effets affectant l’esprit de +1 par dose d’alcool
+  qu’il consomme durant sa rage. Ce bonus ne peut dépasser +1 par tranche de quatre
+  niveaux dans la classe.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Destruction de sort, niveau 8Quand le barbare
+  est enragé et qu’il réussit une manœuvre offensive contre un objet magique, il supprime
+  ses pouvoirs magiques pendant 1 round et 1 round de plus pour chaque tranche de
+  5 points au delà du DMD de la cible.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Chasseur de sorcières, niveau 6Une fois par accès
+  de rage, le barbare peut tenter de détruire un effet de sort en cours à l’aide d’un
+  test de manœuvre offensive. Si l’effet affecte autre chose qu’une créature, il peut
+  faire un test de manœuvre offensive contre un DMD de 15 + niveau de lanceur de sorts
+  de l’effet. S’il veut détruire un effet présent sur une créature, il doit réussir
+  un test de manœuvre offensive classique contre le DMD de la créature +5. Il ignore
+  les risques de rater dus à un sort ou un pouvoir magique. Si le barbare réussit,
+  il supprime l’effet pendant 1 round ou 2 s’il dépasse le DMD de 5 à 9. S’il le dépasse
+  de 10 ou plus, il dissipe l’effet.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Superstition, niveau 10Une fois par session de
+  rage, quand le barbare rate un jet de sauvegarde contre un sort, un pouvoir surnaturel
+  ou un pouvoir magique, il peut refaire son jet de sauvegarde (ce qui ne compte pas
+  comme une action). S’il réussit le second jet, le sort ou le pouvoir ne l’affecte
+  pas et il gagne un nombre de points de vie temporaires égal au niveau de lanceur
+  de sorts de l’effet (pour un sort ou un pouvoir magique) ou au FP de l’auteur de
+  l’effet (pour un pouvoir surnaturel). Ces points de vie temporaires subsistent jusqu’à
+  ce qu’ils soient absorbés par des dégâts ou disparaissent au bout d’une minute,
+  selon ce qui se produit le plus rapidement.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Totem du serpent-monde, niveau 6Quand le barbare
+  est enragé, il considère ses armes comme Chaotiques, Mauvaises, Bonnes et Loyales
+  quand il s’agit de vaincre la résistance aux dégâts. Il gagne aussi un bonus de
+  résistance de +1 aux jets de sauvegarde contre les sorts et les effets qui appartiennent
+  à un registre d’alignement, qui viennent d’un Extérieur ou d’une aberration. Ce
+  bonus augmente de +1 pour chaque pouvoir de rage du serpent-monde, sauf celui-ci.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : niveau 10Une fois par rage, le barbare peut tenter
+  d’éviter les graves blessures que pourrait lui infliger une attaque. Il doit pour
+  cela faire un jet de Vigueur dont le DD sera égal aux dégâts qu’il devrait subir,
+  et auquel s’appliquent les éventuelles pénalités d’armure. En cas de succès, il
+  encaissera la moitié des dégâts prévus qui deviendront non létaux. Le barbare doit
+  décider d’utiliser ce pouvoir après le jet d’attaque mais avant que les dommages
+  soient déterminés.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Absorption d’énergie, niveau 16Une fois par rage,
+  le barbare peut absorber l’énergie d’une unique attaque et de la renvoyer sur ses
+  ennemis. Il n’a pas besoin de faire de jet de sauvegarde et ne subit aucun dégât.
+  À n’importe quel moment durant sa rage, il pourra relâcher l’énergie emmagasinée
+  en une attaque de souffle d’une portée de 18 m en ligne ou 9 m (6 cases) en cône,
+  dont les dégâts seront équivalents à ceux qu’il a absorbés. Les créatures dans la
+  zone d’effet doivent réussir un jet de sauvegarde de Réflexes (DD 10 + la moitié
+  du niveau de barbare + le modificateur de Constitution du barbare) pour réduire
+  de moitié les dégâts, et ce même si l’effet original ne le permettait pas.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsque le barbare est en rage, il ajoute à tous ses tests
+  d’Escalade un bonus d’altération égal à son niveau.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le barbare peut relancer un jet de Volonté qui a échoué. Ce
+  pouvoir est utilisé sous la forme d’une action immédiate après le premier jet de
+  sauvegarde mais avant que le MJ en révèle les conséquences. Le barbare doit accepter
+  le second résultat même si celui-ci est moins bon que le premier. Ce pouvoir de
+  rage n’est accessible qu’aux barbares de niveau 8 ou plus. Il ne peut être utilisé
+  qu’une seule fois par rage.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Roulé-boulé, niveau 6Quand le barbare se sert
+  de son pouvoir de Roulé-boulé, il peut appliquer son bonus d’esquive à la CA comme
+  bonus aux jets de Réflexes.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Imprudente désinvoltureLorsqu’il est en rage,
+  le barbare peut utiliser une action de mouvement pour faire bénéficier du modificateur
+  de l’aptitude imprudente désinvolture à tous ses alliés qui le souhaitent et qui
+  se trouvent dans un rayon de 27 m (18 cases) autour de lui, et ce pendant un nombre
+  de rounds égal à son modificateur de Charisme (minimum 1).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par rage, lorsqu’il attaque un objet ou qu’il choisit
+  d’effectuer la manoeuvre de combat destruction, le barbare peut ignorer la solidité
+  de cet objet. Il lui faudra déclarer son intention avant de faire son jet d’attaque
+  ou son test de destruction.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage, le barbare gagne une attaque de morsure.
+  S’il utilise celle-ci dans le cadre d’une attaque à outrance, l’attaque de morsure
+  se fait au bonus de base d’attaque du barbare -5. En cas de jet d’attaque réussi,
+  la morsure inflige 1d4 points de dégâts (si le barbare est de taille M et 1d3 points
+  dans le cas de barbares de taille P) plus la moitié du modificateur de Force du
+  barbare. Un barbare peut porter une attaque de morsure au cours d’une action visant
+  à maintenir une prise en lutte ou à se libérer d’une prise en lutte. Cette attaque
+  se déroule avant le test de lutte. Si elle réussit, le barbare bénéficie d’un bonus
+  de +2 à tous les tests de lutte effectués à l’encontre de la cible de la morsure
+  au cours du round où celle-ci a eu lieu.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Escalade en rage, niveau 6Quand le barbare est
+  en rage, il gagne une vitesse d’escalade naturelle égale à sa vitesse de déplacement
+  de base.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Regard intimidant, niveau 8Le barbare peut utiliser
+  une action simple pour pousser un hurlement terrifiant. Tous les ennemis secoués
+  situés à 9 m (6 cases) ou moins du barbare doivent réussir un jet de Volonté (de
+  DD égal à 10 + la moitié du niveau du barbare + le modificateur de Force du barbare)
+  ou devenir paniqués pendant 1d4+1 rounds. Les ennemis qui ont tenté un jet de sauvegarde
+  contre le hurlement terrifiant du barbare (qu’ils l’aient réussi ou non) sont immunisés
+  à ce pouvoir pendant vingt-quatre heures.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il entre en rage, le barbare peut choisir de subir
+  un malus de -1 à sa CA pour bénéficier d’un bonus de +1 à ses jets d’attaque. Le
+  malus à la CA et le bonus à l'attaque augmentent d'un point au niveau 4 puis tous
+  les quatre niveaux par la suite.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage, le barbare bénéficie d’un bonus de
+  moral de +1 sur les tests d’Intimidation et au DD du jet de sauvegarde sur tous
+  les effets de terreur qu’il provoque, pour chaque dose d’alcool qu’il a ingurgitée
+  durant sa rage. Ce bonus ne peut dépasser +1 par tranche de quatre niveaux dans
+  cette classe.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Moment de luciditéQuand le barbare utilise son
+  pouvoir moment de lucidité, il peut lancer les dés à deux reprises quand il a un
+  risque de rater sa cible ou quand il fait un jet de Volonté pour dévoiler une illusion.
+  Il conserve le meilleur résultat.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le barbare est marqué par les  esprits, comme le prouve un
+  tatouage, une cicatrice ou une marque de naissance particulièrement impressionnante.
+  Une fois par rage, il peut, par une action rapide qui lui coûte 2 rounds de rage,
+  faire appel aux faveurs des esprits. Il bénéficie d’un bonus de +1d6 à un jet de
+  d20 qu’il vient juste de faire. Il peut demander les faveurs des esprits après avoir
+  vu le résultat du jet de d20.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : niveau 10Quand le barbare est en rage et qu’il
+  immobilise un adversaire plus petit que lui, il peut s’en servir comme d’une arme
+  à deux mains improvisée qui inflige 1d8 points de dégâts contondants si l’adversaire
+  est de taille P. Les créatures plus grandes ou plus petites infligent un dé de dégâts
+  basé sur leur taille, en partant de ce principe. Une créature de taille TP inflige
+  donc 1d6 points de dégâts, une de taille M 1d10, etc. Le barbare peut utiliser l’adversaire
+  immobilisé pour faire une unique attaque avec son meilleur BBA, au cours de l’action
+  qui lui permet de maintenir sa prise sur l’ennemi. Quand le barbare touche un ennemi
+  avec un adversaire en guise d’arme, la cible reçoit les dégâts prévus et l’arme
+  improvisée subit les mêmes. Si la créature immobilisée est incapable de se défendre
+  contre cette immobilité forcée, pour quelle que raison que ce soit, le barbare peut
+  l’utiliser comme arme sans avoir besoin de lutter avec ou de l’immobiliser, et ce
+  jusqu’à ce que la créature soit réduite à 0 point de vie. Elle n’a alors plus aucune
+  utilité en tant qu’arme improvisée.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Pendant un round, le barbare ne bénéficie d’aucun des avantages
+  liés à la rage mais ne souffre pas non plus des pénalités associées, y compris le
+  malus à la classe d’armure et les restrictions sur le type d’actions qu’il peut
+  accomplir. Une action rapide suffit pour activer ce pouvoir. Malgré cela, le round
+  en question compte quand même comme round de rage par rapport au quota quotidien.
+  Ce pouvoir ne peut être utilisé qu’une seule fois par rage.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage et tant qu’il est en selle ou qu’il
+  se trouve sur une case adjacente à sa monture, celle-ci peut également profiter
+  des effets de la rage (y compris la rage de grand berserker et la rage de maître
+  berserker). Si elle entre en rage de cette manière, le barbare doit dépenser un
+  round supplémentaire de rage par round pour sa monture. Il peut choisir de ne pas
+  le faire, auquel cas sa monture n’entre pas en rage.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Monture féroce, niveau 8Lorsqu’il est en rage
+  et sur le dos de sa monture, celle-ci gagne les avantages de n’importe quel pouvoir
+  de rage ayant un effet constant sur lui quand il est en rage. Cependant, elle ne
+  peut pas bénéficier de ceux qui nécessitent une action pour être activés, et ce
+  même si c’est une action libre.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Monture féroce, niveau 6Lorsqu’il est en rage
+  et sur le dos de sa monture, celle-ci bénéficie d’une RD/magie égale à la moitié
+  du niveau de barbare du personnage. On considère que ses armes naturelles sont magiques
+  pour ce qui est de surpasser la réduction des dégâts.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsque le barbare est en rage, il ajoute à tous ses tests
+  de Natation un bonus d’altération égal à son niveau.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Nage en rage, niveau 6Quand le barbare est en
+  rage, il gagne une vitesse de nage naturelle égale à sa vitesse de déplacement de
+  base. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : barbare 4Le barbare peut utiliser une action
+  simple pour se soigner de 1d8 points de dégâts + son modificateur de Constitution.
+  Cette quantité augmente de 1d8 tous les quatre niveaux de barbare au-delà du niveau
+  4 et ce jusqu’à un maximum de 5d8 au niveau 20. Ce pouvoir de rage ne peut être
+  employé qu’une seule fois par jour (et seulement lorsque le barbare est en rage).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le barbare bénéficie de la capacité d’odorat lorsqu’il est
+  en rage et peut utiliser cette capacité pour situer des ennemis invisibles.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Odorat, niveau 8Quand le barbare utilise son
+  pouvoir odorat, il ajoute la moitié de son niveau de barbare à ses tests de Survie
+  pour suivre une piste à l’odeur et à ses tests de Perception pour localiser une
+  créature qu’il ne voit pas. S’il repère la position d’une créature qui bénéficie
+  d’un camouflage total, il la traite comme si elle était juste camouflée.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le barbare gagne un bonus d’altération de +1,50 m (1 case)
+  à sa vitesse de déplacement. Cet avantage est toujours actif lorsque le barbare
+  est en rage. Un barbare peut choisir ce pouvoir jusqu’à trois fois et ses effets
+  se cumulent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par rage, le barbare peut tenter un croc-en-jambe
+  en lieu et place d’une attaque au corps à corps. S’il y parvient, sa cible subit
+  des dégâts égaux à son modificateur de Force et est projetée à terre. Cette action
+  ne provoque pas d’attaque d’opportunité.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Superstition, niveau 8Lorsqu’il est en rage,
+  le barbare bénéficie du don Perturbateur.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le barbare ajoute son niveau de barbare à un jet de Force,
+  à un test de manœuvre offensive ou à sa défense contre les manœuvres offensives
+  lorsqu’un adversaire tente une telle manœuvre à son encontre. Ce pouvoir s’utilise
+  par une action immédiate et ne peut être employé qu’une seule fois par rage.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Monture féroce, niveau 8Lorsqu’il est en rage
+  et sur le dos de sa monture, celle-ci gagne l’attaque spéciale de piétinement, qui
+  inflige 1d8 points de dégâts pour un animal de taille M, 2d6 points pour un animal
+  de taille G et 2d8 points pour un animal de taille TG, plus 1,5 fois le modificateur
+  de Force de la monture. Ces dégâts peuvent être réduits de moitié en réussissant
+  un jet de Réflexes (DD 10 + la moitié du niveau de barbare + le modificateur de
+  Force de la monture). Les créatures qui se trouvent sur la trajectoire de la monture
+  ou qui contrôlent une zone qu’elle traverse peuvent porter des attaques d’opportunité
+  sur elle ou son cavalier, mais pas sur les deux.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Piétinement féroce, niveau 12La monture d’un
+  barbare peut piétiner des créatures dont la taille est inférieure ou égale à la
+  sienne. De plus, elle peut par une action libre tenter un renversement sur une créature
+  qui a raté son jet de Réflexes (ou choisi de ne pas faire de jet de sauvegarde afin
+  de bénéficier d’une attaque d’opportunité).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le barbare gagne un bonus d’esquive de +1 à la classe d’armure
+  contre les attaques au corps à corps et ce pendant un nombre de rounds égal à la
+  valeur actuelle de son modificateur de Constitution (au minimum 1 round). Ce bonus
+  augmente de +1 par tranche de six niveaux de barbare. Une action de mouvement est
+  nécessaire pour activer ce pouvoir et celle-ci ne provoque pas d’attaque d’opportunité.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’un adversaire situé à côté du barbare en rage entreprend
+  une retraite pour s’en éloigner, le barbare peut se déplacer du double de sa vitesse
+  de déplacement normale par une action immédiate. Il doit alors terminer son mouvement
+  à côté de l’ennemi qui a battu en retraite. Le déplacement du barbare est sujet
+  aux attaques d’opportunité normalement. Ce pouvoir ne peut être utilisé qu’une seule
+  fois par rage.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Précision étonnante, niveau 8Quand le barbare
+  se sert de sa précision étonnante, il ignore les chances de rater dues au camouflage
+  et considère le camouflage total comme un simple camouflage. Il ignore également
+  les malus dus à un abri, sauf en cas d’abri total.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le barbare gagne un bonus de moral de +1 à un jet d’attaque.
+  Ce bonus augmente de +1 par tranche de quatre niveaux de barbare. Ce pouvoir s’active
+  par une action rapide précédant le jet d’attaque et ne peut être employé qu’une
+  seule fois par rage.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Précision mortelle, niveau 16Quand le barbare
+  utilise son pouvoir de rage précision étonnante, son multiplicateur de dégâts critiques
+  augmente de 1 (un multiplicateur de ×2 devient ×3, un multiplicateur 19-20/×2 devient
+  19-20/×3, un ×3 devient un ×4 et un ×4 devient un ×5).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Précision étonnante, niveau 4Si le barbare est
+  en passe de confirmer un coup critique alors qu’il utilise son pouvoir de précision
+  étonnante, il applique deux fois son bonus de précision étonnante au jet qui lui
+  permet de confirmer le critique.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Projectile mineur, niveau 8Ce pouvoir est en
+  tout point semblable à Projectile mineur, mais le barbare peut en plus augmenter
+  le facteur de portée à 18 m (12 cases) ou la taille de son projectile d’une catégorie.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Projectile, niveau 12Ce pouvoir est en tout point
+  semblable à Projectile, mais le barbare peut augmenter le facteur de portée de 27
+  m (18 c) ou la taille de son projectile de deux catégories.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage et par une action complexe, le barbare
+  peut soulever et lancer à deux mains un objet dont la taille est au maximum d’une
+  catégorie inférieure à la sienne, ou de deux catégories s’il n’utilise qu’une seule
+  main. Cet objet sera considéré comme une arme improvisée avec un facteur de portée
+  de 3 mètres (2 c), il infligera des dégâts équivalents à ceux de sa chute, plus
+  le modificateur de Force du Barbare, réduits de moitié si ce n’est pas de la pierre,
+  du métal ou un matériau de ce genre. Il s’agit d’une attaque de contact à distance
+  et la cible peut diviser les dégâts par deux en réussissant un jet de Réflexes (DD
+  10 + la moitié du niveau de barbare + son modificateur de Force). Le personnage
+  peut choisir de faire usage du don Attaque en puissance pour cette attaque, appliqué
+  à une arme à une ou à deux mains.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Projectile mineur, niveau 6Lorsqu’il est en rage
+  et qu’il charge, le barbare peut sortir et lancer un projectile, ce qui lui confère
+  le bonus normal de +2 sur cette attaque, mais également sur l’attaque de corps à
+  corps à la fin de la charge. Le barbare doit se déplacer d''au moins 3 m avant de
+  lancer le projectile et doit parcourir au moins 3 m supplémentaires avant d''effectuer
+  son attaque au corps-à-corps de fin de charge. Il doit avoir un projectile en main
+  ou une main libre au début de la charge.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Rage élémentaire mineure, niveau 8Toutes les
+  attaques de corps à corps du barbare infligent 1d6 de dégâts d’énergie supplémentaires
+  (acide, froid, électricité ou feu), dont le type est choisi au moment où il entre
+  en rage. Notez que le personnage peut utiliser son pouvoir de rage élémentaire mineure
+  en même temps, mais il doit choisir un autre type d’énergie.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Rage élémentaire, niveau 12Lorsqu’il est en rage,
+  tous les coups critiques qu’il fera avec une de ses armes de corps à corps infligent
+  1d10 points de dégâts d’énergie supplémentaires (2d10 si ses dégâts sont triplés
+  sur un coup critique, et 3d10 s’ils sont quadruplés). Le type d’énergie sera le
+  même que celui choisi pour le pouvoir de rage élémentaire.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : niveau 4Une fois par rage et par une action rapide,
+  les attaques de corps à corps du barbare infligent 1d6 points de dégâts d’énergie
+  (acide, froid, électricité ou feu) supplémentaires pendant 1 round.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Superstition, niveau 6Quand le barbare est enragé,
+  il inflige des dégâts normaux aux créatures intangibles, même s’il n’utilise pas
+  d’arme magique. Il gagne également un bonus de moral à la CA au contact d’un montant
+  égal au bonus aux jets de sauvegarde qu’il obtient grâce à son pouvoir superstition.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : niveau 12Lorsque le barbare est en rage, il est
+  immunisé aux états préjudiciables secoué et effrayé.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : niveau 8La réduction de dégâts du barbare s’accroît
+  de 1/–. Ce bonus est actif tant que le barbare est en rage. Un barbare peut choisir
+  ce pouvoir jusqu’à trois fois ; ses effets se cumulent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsque le barbare est en rage, il peut porter une attaque
+  d’opportunité supplémentaire par round.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Par une action de mouvement, le barbare peut faire un test
+  d’Intimidation contre un ennemi adjacent. S’il parvient à démoraliser son adversaire,
+  celui-ci est secoué pendant 1d4 rounds + 1 round par tranche de 5 points de différence
+  entre son résultat et le DD du test.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par round, le barbare peut tenter une bousculade
+  contre une cible à la place d’une attaque de corps à corps. Si cette tentative réussit,
+  la cible subit des dégâts égaux au modificateur de Force du barbare en plus d’être
+  repoussée. Le barbare n’est pas obligé de se déplacer avec la cible en cas de réussite.
+  Cette technique ne provoque pas d’attaque d’opportunité.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Totem draconique, niveau 8Quand le barbare est
+  enragé, il devient résistant au type d’énergie associé à son totem  : acide (noir,
+  cuivre et vert), froid (argent et blanc), électricité (bleu et bronze) ou feu (airain,
+  or et rouge). Cette résistance est égale au double de la RD/– dont le barbare bénéficie
+  actuellement grâce à sa réduction de dégâts de classe. Cette RD augmente de 2 par
+  totem draconique, y compris celui-ci.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Totem de la ruche, niveau 6Quand le barbare est
+  enragé, il ne subit plus de dégâts de la part des attaques de nuée, ce qui le protège
+  contre les effets secondaires néfastes comme le poison ou les saignements. Il gagne
+  aussi un bonus de +1 aux tests de manœuvre offensive et au DMD, quand il est en
+  lutte, pour chaque tranche de quatre niveaux de barbare (+5 au maximum).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage, le personnage bénéficie d’une résistance
+  à un type d’énergie (acide, froid, électricité, feu ou son) égale à la moitié de
+  son niveau de barbare (minimum 1) dont la nature doit être sélectionnée définitivement
+  au moment où le pouvoir de rage est choisi. Il est possible de sélectionner ce pouvoir
+  plusieurs fois, mais ses effets ne se cumulent pas, ils s’appliquent à un type d’énergie
+  différent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Résistance à l’énergie, niveau 8Une fois par
+  rage, le barbare peut réduire de moitié les dégâts d’énergie d’une unique attaque,
+  s’il a choisi la résistance à l’énergie correspondante (divisez les dégâts par 2
+  puis appliquez la résistance).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le barbare gagne un bonus d'esquive de +1 à la CA contre les
+  attaques à distance pendant un nombre de rounds égal à son modificateur de Constitution
+  actuel (au minimum 1 round). Ce bonus augmente de +1 par tranche de 6 niveaux de
+  barbare. Cette capacité s'utilise en une action de mouvement qui ne provoque pas
+  d'attaque d'opportunité.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Lorsqu’il est en rage, le barbare gagne deux attaques de
+  griffe considérées comme ses attaques principales et effectuées en appliquant le
+  bonus de base à l’attaque maximum du barbare. Elles infligent 1d6 points de dégâts
+  tranchants pour une créature de taille M (1d4 pour créature de taille P) plus son
+  modificateur de Force.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang abyssal mineur, niveau 6 Une fois par jour
+  quand le barbare entre en rage, il peut choisir d’augmenter sa taille de base d’une
+  catégorie (comme le sort agrandissement, même si le barbare n’est pas humanoïde).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang abyssal, niveau 10Lorsqu’il est en rage,
+  le barbare gagne une résistance de 5 contre l’acide, le feu et le froid.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage, on considère que ses attaques au corps
+  à corps du barbare sont des armes alignées sur le Bien dans le cadre de la réduction
+  des dégâts. De plus, le barbare inflige 1d6 points de dégâts supplémentaires lorsqu’il
+  blesse un extérieur Mauvais avec une attaque au corps à corps.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang céleste mineur, niveau 6 Lorsqu’il est en
+  rage, le barbare gagne une résistance de 5 contre l’acide et le froid.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang céleste, niveau 10Une fois par rage, le
+  barbare peut relancer un test de caractéristique, un test de compétence ou un jet
+  de sauvegarde qu’il vient d’effectuer. Il doit conserver le deuxième résultat, même
+  s’il est inférieur. Il doit décider s’il utilise ce pouvoir après avoir lancé le
+  dé mais avant la révélation du résultat.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage et qu’il touche une créature en effectuant
+  une attaque de charge, la créature touchée devient secouée pendant un nombre de
+  rounds égal à la moitié du niveau de barbare du personnage (minimum 1). Cet effet
+  ne se cumule pas avec d’autres effets de terreur pour infliger un état préjudiciable
+  plus important.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang de mort-vivant mineur, niveau 6 Lorsqu’il
+  est en rage, on considère que toutes les attaques au corps à corps du barbare bénéficient
+  de la propriété spéciale d’arme spectrale. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang de mort-vivant, niveau 10 Lorsqu’il est
+  en rage, le barbare gagne une résistance au froid 10, ainsi qu’une RD 10/- contre
+  les dégâts non létaux.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage, le barbare gagne deux attaques de griffe
+  considérées comme ses attaques principales et effectuées en appliquant son bonus
+  de base à l’attaque maximum. Elles infligent 1d6 points de dégâts tranchants pour
+  une créature de taille M (1d4 pour créature de taille P) plus son modificateur de
+  Force.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang draconique mineur, niveau 6 Choisissez un
+  type d’énergie destructive parmi les suivants : acide, électricité, feu ou froid.
+  Lorsqu’il est en rage, le barbare gagne une résistance de 5 contre le type d’énergie
+  destructive choisi et un bonus d’armure naturelle de +1.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang draconique, niveau 10Lorsqu’il est en rage,
+  le barbare dispose d’une attaque de souffle utilisable une fois par jour. Pour chaque
+  tranche de 2 niveaux de barbare, cette attaque de souffle inflige 1d6 points de
+  dégâts du type d’énergie destructive choisi en prenant le pouvoir de sang draconique.
+  La zone d’effet du souffle est un cône de 9 mètres (6 c) (dans le cas du feu ou
+  du froid) ou une ligne de 18 mètres ((12 c) dans le cas de l’acide ou de l’électricité).
+  Les créatures situées dans la zone d’effet du souffle doivent réussir un jet de
+  Réflexes pour diminuer les dégâts de moitié. Le DD de ce jet de sauvegarde est égal
+  à 10 + la moitié du niveau du barbare + son modificateur de Constitution.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'Choisissez un type d’énergie destructive : acide, électricité,
+  feu ou froid. Lorsqu’il est en rage, le barbare peut, par une action rapide et jusqu’à
+  trois fois par jour, imprégner ses attaques au corps à corps d’énergie élémentaire.
+  Elles infligent alors 1d6 points de dégâts supplémentaires du type d’énergie choisi
+  pendant un round.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang élémentaire mineur, niveau 6 Lorsqu’il est
+  en rage, le barbare gagne une résistance aux énergies destructives de 10 contre
+  le type d’énergie choisi lorsqu’il a pris le pouvoir de sang élémentaire mineur. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang élémentaire mineur, niveau 10Lorsqu’il est
+  en rage, le barbare gagne un type de déplacement spécial ou une augmentation de
+  la vitesse de déplacement, basé sur l’élément choisi : l’acide confère une vitesse
+  de creusement de 9 mètres (6 c), le froid confère une vitesse de nage de 18 mètres
+  (12 c), le feu confère une augmentation de 9 mètres (6 c) de la vitesse de déplacement
+  de base au sol et l’électricité confère une vitesse de vol de 18 mètres (12 c) (bonne
+  manoeuvrabilité).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Quand le barbare est en rage et à chaque fois qu’il confirme
+  un coup critique, la cible doit réussir un jet de Volonté (DD = 10 + 1/2 du niveau
+  du barbare + son modificateur de Constitution) pour ne pas être confuse pendant
+  un round. C’est un effet mental de coercition.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang féerique mineur, niveau 6 Lorsqu’il est
+  en rage et qu’il charge, le barbare ignore les terrains difficiles (y compris les
+  terrains magiques, mais pas les créatures).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang féerique, niveau 10Lorsqu’il est en rage
+  et tant qu’il se déplace de 3 mètres au moins, le barbare bénéficie des effets d’un
+  sort de flou pendant 1 round.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Trois fois par jour, lorsqu’il est en rage et par une action
+  rapide, le barbare peut imprégner ses attaques de feu infernal pendant un round.
+  Toutes ses attaques au corps à corps gagnent alors la propriété spéciale d’arme
+  magique de feu.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang infernal mineur, niveau 6 Lorsqu’il est
+  en rage, le barbare gagne une résistance au feu 5, ainsi qu’un bonus de +2 aux jets
+  de sauvegarde contre le poison.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Sang infernal, niveau 10Lorsqu’il est en rage,
+  le barbare gagne un bonus de +4 contre les enchantements et les effets de terreur.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsque le barbare est en rage et qu’il utilise la compétence
+  Acrobaties pour sauter, son test de compétence gagne un bonus d’altération égal
+  à son niveau, et on considère qu’il bénéficie automatiquement d’un élan.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Saut en rage, niveau 6Quand le barbare est en
+  rage, il peut faire une action de mouvement pour se déplacer et faire une action
+  simple à n’importe quel stade de ce déplacement.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Pas rapides, niveau 4Une fois par accès de rage,
+  le barbare peut dépenser une action complexe pour se déplacer à 6 fois sa vitesse
+  ou dépenser seulement une action de charge lors d’une action complexe pour se déplacer
+  à 3 fois sa vitesse.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le barbare gagne un bonus de moral de +2 aux jets de sauvegarde
+  contre les sorts, les pouvoirs magiques et les capacités surnaturelles. Ce bonus
+  augmente de +1 par tranche de quatre niveaux de barbare. Lorsque le barbare est
+  en rage, il ne peut pas se soumettre volontairement aux effets d’un sort. Il doit
+  tenter un jet de sauvegarde pour résister à chacun des sorts qui sont lancés contre
+  lui, même ceux provenant de ses alliés.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Fureur animale, niveau 4Quand le barbare est
+  enragé, il subit seulement la moitié des dégâts venant des nuées de vermines, même
+  si la nuée résulte d’un sort ou d’un effet qui agit comme telle (comme une nuée
+  grouillante qui sert à convoquer des araignées ou un fléau d’insectes). Il gagne
+  aussi un bonus de +1 aux tests de Force et au DMD contre les manœuvres bousculade,
+  attirer et croc-en-jambe par tranche de quatre niveaux de barbare (+5 au maximum).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Totem du chaos mineur, niveau 6Lorsqu’il est
+  en rage, le corps du barbare est possédé par le chaos. Il bénéficie d’un bonus de
+  +4 sur ses tests d’Évasion et a 25% de chances d’ignorer les dégâts supplémentaires
+  d’un coup critique ou d’une attaque sournoise.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Totem du chaos, niveau 10Lorsqu’il est en rage,
+  le barbare bénéficie d’une RD/Loyal égale à la moitié de son niveau de barbare.
+  On considère que ses armes et ses armes naturelles sont d’alignement Chaotique pour
+  ce qui est de surpasser la résistance aux dégâts.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'Lorsqu’il est en rage, le barbare gagne un bonus de parade
+  de +1 à sa CA lorsqu’il combat des créatures d’alignement Loyal, et d’un bonus de
+  résistance de +1 sur les jets de sauvegarde contre la confusion, la folie, le métamorphisme
+  et les effets de la magie du registre Loyal. Ce bonus augmente de +1 pour chaque
+  pouvoir de rage de totem du chaos que le personnage possède. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Fureur animale, Regard intimidant, niveau 6Le
+  barbare doit choisir la couleur du dragon qu’il prend pour totem (noir, bleu, airain,
+  bronze, cuivre, or, vert, rouge, argent ou blanc). Quand il entre en rage, il gagne
+  un bonus de +1 aux tests de Perception et un bonus de moral de +1 aux jets de sauvegarde
+  contre la terreur, la paralysie et les effets de sommeil. Ce bonus augmente de +1
+  à chaque fois qu’il acquiert un nouveau pouvoir de rage totémique draconique (comme
+  la Résilience totémique draconique ou les Ailes totémiques draconiques).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Quand le barbare est enragé, il gagne un bonus d’intuition
+  de +1 à la CA contre les Extérieurs et les aberrations. Ce bonus augmente de +1
+  pour chaque pouvoir de rage du serpent-monde, sauf celui-ci.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Totem fiélon mineur, niveau 6Lorsqu’il est en
+  rage, des dizaines de pointes acérées jaillissent du corps du barbare. Tous ceux
+  qui tentent de l’atteindre avec une arme de corps à corps, une attaque à mains nues
+  ou une arme naturelle subissent 1d6 de dégâts perforants.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Totem fiélon, niveau 10Lorsqu’il est en rage,
+  le barbare est entouré d’une aura de menace. Les créatures d’alignement Bon qui
+  se trouvent dans la zone adjacente deviennent secouées et subissent 2d6 points de
+  dégâts d’armes tranchantes au début du tour du personnage, alors que leur chair
+  est entaillée par des dizaines de petites coupures. Les créatures d’alignement Neutre
+  sont secouées mais ne subissent pas de dégâts, celles d’alignement Mauvais ne sont
+  quant à elles pas affectées.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage, une paire de grandes cornes pousse
+  sur le front du barbare, ce qui lui confère l’attaque du même nom. Le coup de corne
+  sera considéré comme une attaque primaire, bénéficiera de son BBA maximum et infligera
+  1d8 de dégâts perforants (1d6 si le personnage est de taille P) + le modificateur
+  de Force du barbare. S’il frappe également avec des armes, le coup de corne sera
+  considéré comme une attaque secondaire mais elle subira un malus de -5 et le modificateur
+  de Force sera divisé par deux.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Totem spirituel mineur, niveau 6Lorsqu’il est
+  en rage, le barbare devient plus difficile à discerner. Les esprits autour de lui
+  infligent aux adversaires ne se trouvant pas dans une zone adjacente au personnage
+  20% de chances de le rater sur des attaques à distance et de corps à corps (typiquement
+  à cause de l’allonge).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage, le barbare est entouré d’esprits qui
+  harcèlent ses adversaires. Ils portent une attaque de coup par round aux adversaires
+  vivants et situés dans une zone adjacente à celle où se trouve le personnage, et
+  bénéficient pour ce faire du BBA maximum du barbare + son modificateur de Charisme.
+  Les attaques font 1d4 dégâts d'énergie négative + le modificateur de Charisme du
+  barbare
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Totem spirituel, niveau 10Lorsqu’il est en rage,
+  les esprits qui entourent le barbare deviennent dangereux pour tous les adversaires
+  qui se trouvent dans une zone adjacente au personnage. Ils leur infligent 1d8 points
+  de dégâts d’énergie négative au début de son tour. De plus, ils peuvent attaquer
+  les ennemis qui se tiennent à une distance maximale de 4,5m de leur protégé, et
+  cette attaque de coup inflige 1d6 points de dégâts d’énergie négative.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS'' : Résilience totémique de la ruche, niveau 8Quand
+  le barbare est enragé, le dé de dégâts de morsure auquel il a droit grâce à fureur
+  animale augmente d’une catégorie et le malus au jet d’attaque de la morsure diminue
+  de -2. Une fois par accès de rage, il peut empoisonner quelqu’un s’il réussit à
+  le mordre. Le poison a une fréquence de 1/round pendant 4 rounds et inflige un affaiblissement
+  de 1d3 points de Constitution. Il se guérit avec un jet de sauvegarde réussi. Le
+  jet de sauvegarde est un jet de Vigueur DD = 10 + 1/2 niveau de barbare + modificateur
+  de Constitution du barbare.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS'' : Esprit du serpent-monde, niveau 10Quand le
+  barbare est enragé, il double son bonus de déplacement accéléré et il est impossible
+  de le faire tomber. Il double également le bonus d’intuition que lui apporte le
+  totem de serpent-monde contre les attaques qui viennent d’un Extérieur ou d’une
+  aberration et qui visent à confirmer un coup critique.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS :  niveau 6Lorsqu’il est en rage, le barbare peut
+  inciter une créature à l’attaquer s’il réussit un test d’Intimidation pour la démoraliser.
+  La cible restera également secoué tant que le personnage sera visible et en rage,
+  ou jusqu’à ce qu’elle soit parvenue à lui porter une attaque au corps-à-corps. Le
+  barbare bénéficie d’un bonus de circonstance de +2 par dose d’alcool qu’il aura
+  ingurgitée durant sa rage. C’est un effet mental dépendant du langage qui utilise
+  une composante sonore.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’il est en rage et s’il tombe en dessous de 0 pv, il
+  peut convertir 1 point de dégâts létal par niveau de barbare en point de dégâts
+  non létal. S’il était en négatif, il est immédiatement stabilisé.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Vie préservée, niveau 6Quand le barbare se sert
+  de son pouvoir de rage vie préservée, il convertit un point de dégâts létaux de
+  plus en dégâts non létaux par niveau de barbare.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Vitalité renouvelée, niveau 6Quand le barbare
+  est enragé, il ignore un niveau négatif temporaire par tranche de quatre niveaux
+  de barbare (5 au maximum). Une fois par jour, quand le barbare termine un accès
+  de rage alors qu’il possède des niveaux négatifs temporaires, il peut faire un jet
+  de sauvegarde pour se débarrasser d’un nombre de niveaux négatifs égal au nombre
+  de niveaux qu’il peut ignorer quand il est enragé.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : niveau 12Lorsqu’il est en rage et par une action
+  libre, le barbare peut délibérément ouvrir sa garde et préparer une contre-attaque
+  dévastatrice. Ses adversaires gagnent un bonus de +4 à leurs jets d’attaque et de
+  dégâts jusqu’au début du tour suivant. Cependant, chaque coup porté au barbare provoquera
+  une attaque d’opportunité qui sera résolue avant celles de ses adversaires.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS :  niveau 8Lorsque le barbare est en rage, il est
+  immunisé aux états préjudiciables fiévreux et nauséeux.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Nouvelle vigueur, niveau 6Une fois que le barbare
+  a utilisé le pouvoir de rage nouvelle vigueur jusqu’à la fin de son accès de rage,
+  il bénéficie de la guérison accélérée 1/6 niveaux de barbare (3 au maximum). Il
+  récupère les points de vie dus à la guérison au début de chaque tour.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsque le barbare est en rage, ses sens sont si aiguisés
+  qu’il bénéficie des effets de la vision nocturne.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : pouvoir de rage ou trait racial de Vision nocturneLorsque
+  le barbare est en rage, ses sens deviennent incroyablement aiguisés et il bénéficie
+  des effets de la vision dans le noir sur une distance de 18 m (12 cases).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'PRÉREQUIS : Nouvelle vigueur, niveau 4Quand le barbare est
+  enragé, il ignore les effets de 1 point d’affaiblissement ou de malus de caractéristique
+  par tranche de deux niveaux de barbare (10 au maximum). Une fois par jour, quand
+  un barbare victime d’un malus à ou d’un affaiblissement de caractéristique termine
+  un accès de rage, il peut refaire un jet de sauvegarde (le cas échéant) contre un
+  effet qui lui impose ces désagréments. S’il réussit, il se débarrasse d’un nombre
+  de points d’affaiblissement ou de malus égal à celui qu’il peut ignorer quand il
+  est enragé.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: '(TALENT RÉSERVÉ AUX HOMMES-FÉLINS) Une fois par jour, lorsqu’un
+  homme-félin roublard tente de désamorcer un appareil et échoue de 5 ou plus, il
+  peut refaire son test par une action libre. Il doit prendre le résultat du deuxième
+  jet, même s’il est pire que le premier. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: '(TALENT RÉSERVÉ AUX HOMMES-FÉLINS) L’homme-félin roublard
+  ayant ce talent retombe toujours sur ses pattes, même quand il reçoit des dégâts
+  létaux des suites d’une chute. S’il possède également le trait racial chute agile,
+  tous les dégâts de chute qu’il reçoit comptent comme si sa distance de chute était
+  plus courte de 6 mètres qu’elle ne l’est en réalité. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: '(TALENT RÉSERVÉ AUX HOMMES-FÉLINS) L’homme-félin roublard
+  ayant ce talent est doué pour déterminer la valeur des objets qui brillent. Il peut
+  toujours décider de faire 10 quand il estime des gemmes et des bijoux. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: (TALENT RÉSERVÉ AUX HOMMES-FÉLINS) L’homme-félin ayant ce
+  talent utilise des d8, non des d6, pour ses jets de dégâts d’attaque sournoise,
+  mais uniquement quand il se sert de ses griffes pour porter son attaque sournoise.
+  Il doit avoir le trait racial griffes du félin pour prendre ce talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: (TALENT RÉSERVÉ AUX HOMMES-FÉLINS) L’homme-félin roublard
+  ayant ce talent peut appliquer du poison sur ses griffes sans risquer de s’empoisonner
+  par accident. Il doit avoir le trait racial griffes du félin et l’aptitude de classe
+  utilisation des poisons pour prendre ce talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’un roublard disposant de ce talent rate un test d’Escalade
+  de 5 points ou plus, il peut immédiatement effectuer un nouveau test d’Escalade
+  contre le DD de base de la surface escaladée + 10. En cas de réussite, il parvient
+  à arrêter sa chute en s’agrippant à la surface et ne subit aucun dégât de chute.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, un roublard disposant de ce talent peut
+  lancer deux dés lors d’un test d’Acrobaties et choisir le résultat le plus avantageux.
+  Il doit décider d’utiliser cette capacité avant le test. Il peut utiliser cette
+  capacité une fois de plus par jour par tranche de 5 niveaux de roublard.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Après avoir troublé le récit d’un autre au moyen de Brouiller
+  les pistes, le roublard peut faire un autre test de Diplomatie pour altérer un peu
+  plus les détails de l’histoire et ainsi discréditer, insulter ou humilier la cible.
+  Si le test réussit, la cible reçoit un malus à ses tests de Diplomatie et d’Intimidation
+  contre quiconque a entendu l’histoire altérée. Ce malus est égal au bonus d’Intelligence,
+  de Sagesse ou de Charisme du roublard (le score le plus haut) et dure jusqu’à ce
+  que la cible puisse laver sa réputation ou discréditer le roublard. Le roublard
+  doit avoir le talent Brouiller les pistes pour prendre ce talent.Tous les roublards
+  qui répondent aux conditions requises indiquées peuvent prendre ce nouveau talent
+  de roublard, mais ils sont plus courants chez les kitsune.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui prend ce talent peut choisir une astuce de
+  ninja.Le roublard ne peut pas choisir une astuce de ninja qui porte le même nom
+  qu’un talent de roublard. Il peut choisir une astuce qui demande des points de ki
+  mais ne pourra pas l’utiliser à moins de posséder le talent réserve de ki. Un roublard
+  peut choisir ce talent à plusieurs reprises.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard possédant ce talent peut accompagner ses attaques
+  sournoises de mouvements subtils qui désorientent et distraient son adversaire.
+  Lorsqu’il touche une créature avec une attaque de corps à corps qui inflige des
+  dégâts d’attaque sournoise, il peut choisir de ne pas compter les dégâts supplémentaires
+  pour faire en sorte que la cible soit prise au dépourvue par les attaques portées
+  par un allié (choisi par le roublard) jusqu’au début du prochain tour de la cible.
+  Le roublard ne peut pas se désigner lui-même comme l’allié en question. Les créatures
+  qui possèdent la capacité Esquive instinctive sont immunisées contre les attaques
+  distrayantes.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, lorsqu’un roublard possédant ce talent
+  porte une attaque de corps à corps réussie contre une créature, il peut se déplacer
+  sur une distance totale de 9 mètres (6 c) sans provoquer d’attaques d’opportunité.
+  Ce déplacement doit se terminer dans un espace adjacent à la créature touchée.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Ce talent permet au roublard de faire saigner la victime de
+  son attaque sournoise. Chaque round, la cible subit un nombre de points de dégâts
+  égal au nombre de dés d’attaque sournoise du roublard (par exemple 4 points de saignement
+  dans le cas d’une attaque sournoise à +4d6). Ces dégâts se produisent chaque round
+  au début du tour de la cible. Le saignement peut être arrêté par un test de Premiers
+  secours (DD 15) ou par n’importe quel effet qui permet de récupérer des points de
+  vie perdus. Les dégâts de saignement infligés par ce talent ne sont pas cumulatifs.
+  Ils ignorent toutes les réductions de dégâts.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Chaque fois qu’un roublard disposant de ce talent effectue
+  une attaque à outrance, il peut choisir de subir une pénalité de –2 sur tous ses
+  jets d’attaque jusqu’au début de son prochain tour. Dans ce cas, si une des attaques
+  effectuées au cours de cette période est une attaque sournoise, tous les 1 affichés
+  par les dés de dégâts d’attaque sournoise sont considérés comme des 2.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard possédant ce talent peut toujours considérer ses
+  ennemis comme pris au dépourvu au cours du round de surprise et ce même s’ils ont
+  déjà agi.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui possède ce talent gagne Pistolier amateur
+  ainsi qu’un don d’audace de son choix comme dons supplémentaires. Il doit remplir
+  les conditions requises du don d’audace. Le roublard doit connaître le talent entraînement
+  aux armes à feu avant de prendre celui-ci.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'Une fois par jour, le roublard peut lancer deux dés au cours
+  d’un test de Bluff et choisir le meilleur résultat des deux. Il doit décider d’utiliser
+  ce talent avant le test de Bluff . Le roublard gagne une utilisation quotidienne
+  supplémentaire de ce talent par tranche de 5 niveaux de roublard qu’il possède. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Ce talent permet au roublard de gagner un don de combat supplémentaire.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui dispose de ce talent lance deux fois les dés
+  quand il fait un test de Natation et conserve le meilleur résultat. S’il a déjà
+  fait deux jets grâce à un autre pouvoir, il gagne un bonus d’intuition de +2.S’il
+  est sous l’effet d’un sort ou d’un pouvoir qui l’oblige à lancer deux dés et à choisir
+  le pire, il lance juste 1d20 lors de ses tests de Natation.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Quand un individu raconte un évènement, le roublard fait un
+  test opposé de Diplomatie pour habilement ponctuer le cours de l’histoire de commentaires
+  ou d’affirmations, troublant ainsi la capacité du conteur à se rappeler des détails
+  spécifiques ou exacts. Si le roublard réussit, la cible ne réalise pas que les interjections
+  du roublard l’ont embrouillée. Néanmoins, si le roublard échoue, la cible a droit
+  à un test de Psychologie (DD égal au test de Diplomatie raté du roublard) pour s’apercevoir
+  que celui-ci a délibérément tenté d’embrouiller son récit.Tous les roublards qui
+  répondent aux conditions requises indiquées peuvent prendre ce nouveau talent de
+  roublard, mais ils sont plus courants chez les kitsune.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, un roublard possédant ce talent peut créer
+  un camouflage simple mais efficace à partir de la végétation qui pousse sur place.
+  Le roublard a besoin d’une minute pour préparer ce camouflage, mais une fois prêt,
+  le camouflage peut être utilisé pendant tout le reste de la journée, à moins que
+  le roublard ne rate un jet de sauvegarde contre un effet de zone infligeant des
+  dégâts de feu, de froid ou d’acide, auquel cas son camouflage perd son efficacité.
+  Le roublard gagne un bonus de +4 aux tests de Discrétion au sein de l’environnement
+  dans lequel il a prélevé la végétation. Cette capacité ne peut pas être utilisée
+  dans les zones qui ne comportent pas de végétation naturelle.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, le roublard peut lancer deux fois le dé
+  lors d’un test de Diplomatie et choisir le résultat le plus avantageux. Il doit
+  décider d’utiliser ce talent avant le test. Le roublard peut utiliser cette capacité
+  une fois de plus par jour par tranche de 5 niveaux de roublard qu’il possède.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui dispose de ce talent peut faire un test de
+  Connaissances, une fois par jour, même sans entraînement.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Grâce à ce talent, le roublard peut obtenir de meilleurs objets
+  magiques grâce à ses contacts au marché noir.Il considère toutes les villes comme
+  d’une taille de plus qu’elles ne le sont réellement quand il s’agit de déterminer
+  la valeur de base maximale (en pièces d’or) des objets à vendre, ainsi que le nombre
+  d’objets magiques mineurs, moyens et majeurs à disposition. Si la ville est déjà
+  une capitale, il a accès à tous les objets mineurs et moyens et à 3d8 objets majeurs.Un
+  test de Diplomatie réussi lui permet de faire comme si la ville était de deux tailles
+  de plus qu’elle ne l’est.Si la ville est déjà une capitale et que le roublard réussit
+  son test, il a accès à la totalité des objets magiques.Si la ville est déjà une
+  grande cité et qu’il réussit son test, il a accès à tous les objets mineurs et moyens
+  et à 3d8 objets majeurs.Un test réussi lui permet aussi de vendre des objets volés
+  sur le marché noir. S’il rate le test de 5 ou plus, il fait peur aux acteurs du
+  marché et traite la ville normalement pendant 1 semaine. De plus, les chefs du marché
+  noir risquent d’avertir les autorités de sa présence, en guise de représailles pour
+  avoir perturbé le marché ou pour détourner l’attention de leurs activités illicites.Le
+  DD du test dépend de la taille de l’agglomération et figure dans la table ci-contre.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsque le roublard inflige des dégâts d’attaque sournoise
+  à un adversaire, celui-ci subit un malus de –2 aux jets d’attaque contre le roublard
+  pendant 1d4 rounds.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent peut utiliser la compétence
+  de Sabotage pour crocheter une serrure par une action simple au lieu d’une action
+  complexe.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent peut utiliser une action
+  rapide pour déclencher n’importe quelle piège de sa fabrication situé dans un rayon
+  de 9 mètres (6 c) autour de lui.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’un roublard disposant de ce talent porte contre une
+  créature une attaque de corps à corps qui inflige des dégâts d’attaque sournoise,
+  il gagne un bonus d’esquive de +1 à la CA pour chaque dé d’attaque sournoise utilisé
+  contre cette créature pendant 1 round.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Ce talent permet à un roublard de se relever en une action
+  libre lorsqu’il est à terre. Se relever continue à provoquer des attaques d’opportunité
+  si le roublard est dans un espace contrôlé par un ennemi.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent peut utiliser les objets
+  qu’il a à portée de main et quelques objets apparemment banals qu’il cache sur lui
+  pour créer des déguisements étonnamment efficaces tout en réduisant le temps nécessaire
+  à leur fabrication. Le temps nécessaire au roublard pour modifier son apparence
+  de cette manière dépend de la complexité du déguisement, comme indiqué sur la table
+  ci-contre. Les temps sont cumulatifs, de sorte que si une roublarde veut se déguiser
+  en un homme d’une race différente, cela lui demande 2 minutes.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Chaque fois qu’un roublard possédant ce talent passe à 3 mètres
+  (2 cases) ou moins d’un piège, il bénéficie d’un test de Perception automatique
+  pour le repérer. Ce test devrait être réalisé en secret par le MJ.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard possédant ce talent n’a besoin que de la moitié
+  du temps normal (mais au minimum 1 round) pour désamorcer un piège grâce à la compétence
+  Sabotage.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, un roublard disposant de ce talent peut
+  lancer deux dés lors d’un test de Psychologie et choisir le résultat le plus avantageux.
+  Il doit décider d’utiliser cette capacité avant le test. Il peut utiliser cette
+  capacité une fois de plus par jour par tranche de 5 niveaux de roublard qu’il possède.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Ce talent permet au roublard d’utiliser la compétence de Discrétion
+  en se déplaçant à sa vitesse normale (non réduite) sans pénalité.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, un roublard disposant de ce talent peut
+  lancer deux dés lors d’un test d’Escamotage et choisir le résultat le plus avantageux.
+  Il doit décider d’utiliser ce talent avant le test. Il peut utiliser cette capacité
+  une fois de plus par jour par tranche de 5 niveaux de roublard qu’il possède.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent peut appliquer du poison
+  sur une arme par une action de mouvement au lieu d’une action simple.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui dispose de ce talent obtient Maniement des
+  armes exotiques (armes à feu).
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Ce talent permet au roublard d’utiliser la compétence d’Acrobaties
+  pour se mouvoir sur des surfaces étroites à sa vitesse normale (non réduite) sans
+  pénalité. De plus, le roublard n’est pas pris au dépourvu s’il est attaqué alors
+  qu’il se déplace sur une surface étroite.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent ajoute Premiers secours
+  et Survie à la liste de ses compétences de classe.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent peut utiliser Bluff ou
+  Diplomatie au lieu d’Intimidation pour forcer un adversaire à agir de manière amicale
+  envers lui.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui dispose de ce talent lance deux fois les dés
+  quand il fait un test d’Escalade et conserve le meilleur résultat. S’il a déjà fait
+  deux jets grâce à un autre pouvoir, il gagne un bonus d’intuition de +2.S’il est
+  sous l’effet d’un sort ou d’un pouvoir qui l’oblige à lancer deux dés et à choisir
+  le pire, il lance juste 1d20 lors de ses tests d’Escalade.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui possède ce talent reçoit un bonus de +4 à
+  ses tests de Bluff pour convaincre quelqu’un qu’il n’a jamais rencontré ou connaît
+  mal qu’ils se sont déjà rencontrés ou se connaissent bien.Tous les roublards qui
+  répondent aux conditions requises indiquées peuvent prendre ce nouveau talent de
+  roublard, mais ils sont plus courants chez les kitsune.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'Lorsqu’un roublard disposant de ce talent réalise un test
+  de Perception pour percevoir les détails d’une conversation ou pour trouver un objet
+  caché ou secret (il peut s’agir d’une porte ou d’un piège par exemple), il gagne
+  un bonus de +4. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard possédant ce talent gagne le don Arme de prédilection
+  comme don supplémentaire.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent gagne le don Force intimidante
+  comme don supplémentaire.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Après une attaque sournoise réussie ou un test d’Escamotage
+  réussi, un roublard disposant de ce talent peut effectuer une action de retraite
+  par une action de mouvement. Il ne peut pas se déplacer de plus de sa vitesse de
+  déplacement de base au cours de cette retraite.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Par une action complexe, un roublard disposant de ce talent
+  peut installer un piège simple avec un FP ne dépassant pas la moitié de son niveau
+  de roublard. Pour ce faire, il doit avoir acheté les composantes, avoir consacré
+  le temps nécessaire à la construction du piège et avoir les composantes nécessaires
+  sous la main. C’est au MD qu’il revient de décider quels types de pièges peuvent
+  être construits de la sorte.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard possédant ce talent gagne la capacité de lancer
+  deux fois par jour un sort de 1 niveau de la liste des sorts de magicien. Il s’agit
+  d’un pouvoir magique dont le niveau de lanceur de sorts est égal au niveau du roublard.
+  Le DD du jet de sauvegarde contre ce sort est égal à 11 + le modificateur d’Intelligence
+  du roublard. Le roublard doit posséder une valeur d’Intelligence égale ou supérieure
+  à 11 pour pouvoir choisir ce talent et il doit également posséder le talent de magie
+  mineure.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard possédant ce talent gagne la capacité de lancer
+  trois fois par jour un sort de niveau 0 de la liste des sorts de magicien. Il s’agit
+  d’un pouvoir magique dont le niveau de lanceur de sorts est égal au niveau du roublard.
+  Le DD du jet de sauvegarde contre ce sort est égal à 10 + le modificateur d’Intelligence
+  du roublard. Le roublard doit posséder une valeur d’Intelligence égale ou supérieure
+  à 10 pour pouvoir choisir ce talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui dispose de ce talent peut faire un test d’Escamotage
+  pour cacher une arme alors qu’il la tient à la vue de tous, même si quelqu’un l’observe.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui possède ce pouvoir peut se déplacer à sa vitesse
+  de base quand il utilise une corde pour faire un test d’Escalade. Il peut aussi
+  faire 10 quand il utilise Acrobaties pour se déplacer sur une surface étroite, même
+  s’il est distrait ou en danger et gagne un bonus de +4 pour déterminer le DD à battre
+  quand une créature veut s’échapper alors qu’il l’a attachée.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui possède ce talent gagne un environnement de
+  prédilection, comme le pouvoir de rôdeur, mais il ne s’améliore pas au fil des niveaux.
+  Le roublard peut choisir ce pouvoir à plusieurs reprises. Il s’applique alors chaque
+  fois à un nouvel environnement et augmente le bonus de ceux précédemment choisis
+  de +2.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Quand un roublard qui possède ce pouvoir ment, il invente
+  quelque chose de tellement crédible que les autres pensent qu’il dit la vérité.
+  Quand il utilise avec succès le Bluff pour convaincre quelqu’un que ce qu’il dit
+  est vrai et que, plus tard, quelqu’un demande à cette personne ce qu’il a dit, la
+  personne interrogée utilise le modificateur de Bluff du roublard (et non le sien)
+  pour convaincre celui qui l’interroge. Si elle possède un modificateur de Bluff
+  supérieur à celui du roublard, elle utilise le sien et lui ajoute un bonus de +2.
+  L’effet dure un nombre de jours égal à 1/2 niveau du roublard + modificateur de
+  Charisme du roublard.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Ce talent permet à un roublard de se déplacer à la moitié
+  de sa vitesse de base lorsqu’il est par terre. Ce mouvement provoque des attaques
+  d’opportunité comme un mouvement normal. De plus, un roublard possédant ce talent
+  peut réaliser un pas de placement lorsqu’il est à terre.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent peut appliquer ses dégâts
+  d’attaque sournoise aux attaques à distance visant des cibles situées dans un rayon
+  de 9 mètres (6 c) et bénéficiant d’un camouflage simple. Les cibles qui bénéficient
+  d’un camouflage total restent immunisées aux attaques sournoises.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, après une attaque ratée contre un adversaire
+  pris en tenaille, le roublard peut désigner un allié qui prend également en tenaille
+  la cible de l’attaque qui a échoué. Par une action immédiate, cet allié peut porter
+  une unique attaque de corps à corps contre cette cible.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent peut appliquer du poison
+  sur une arme de telle sorte que celui-ci reste efficace pour deux attaques réussies
+  au lieu d’une seule. L’effet du poison est réduit, cependant, et les jets de sauvegarde
+  pour y résister reçoivent un bonus de circonstances de +2. Il faut une action complexe
+  pour appliquer le poison de cette manière, ou une action rapide si le roublard possède
+  le talent empoisonnement rapide.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent et possédant au moins un
+  rang en Linguistique gagne quatre langues supplémentaires. Un roublard disposant
+  de ce talent mais ne possédant aucun rang en Linguistique gagne deux langues supplémentaires.
+  S’il gagne des rangs en Linguistique par la suite, il acquiert alors deux langues
+  supplémentaires (pour un total de quatre langues supplémentaires) en plus de celles
+  octroyées par la compétence de Linguistique elle-même.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Les adversaires blessés par l’attaque sournoise du roublard
+  ne peuvent pas porter d’attaques d’opportunité pendant 1 round.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui dispose de ce talent obtient une petite réserve
+  de ki. Elle ressemble à celle du ninja mais ne donne pas d’attaque supplémentaire.
+  Elle contient un nombre de points de ki égal au modificateur de Sagesse du roublard
+  (1 au minimum). Cette réserve se remplit chaque matin. Si le roublard possède déjà
+  une réserve de ki ou qu’il en obtient une plus tard, il rajoute un montant de points
+  de ki supplémentaires égal à 1/2 bonus de Sagesse (1 au minimum). Il peut dépenser
+  1 point de sa réserve de ki pour gagner un bonus de déplacement de +3 mètres (2
+  c) jusqu’à la fin de son tour.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, un roublard possédant ce talent peut gagner
+  un nombre de points de vie temporaires égal à son niveau de roublard. Cette capacité
+  s’active par une action immédiate qui ne peut se produire que lorsque le roublard
+  est amené sous 0 point de vie. Ces points de vie temporaires, qui peuvent empêcher
+  le roublard de mourir, persistent pendant une minute. Si les points de vie du roublard
+  passent sous 0 lorsque ces points de vie temporaires disparaissent, celui-ci tombe
+  inconscient et devient mourant (conformément à la règle normale).
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le roublard qui dispose de ce talent peut retenir son souffle
+  2 rounds de plus. Il peut choisir ce talent à plusieurs reprises.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Ce talent permet au roublard de gagner le don Attaque en finesse
+  en tant que don supplémentaire.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsque le roublard effectue un test de saut, on considère
+  toujours qu’il a pris de l’élan (même si ce n’est pas le cas). De plus, en cas de
+  chute délibérée, un test d’Acrobaties contre un DD de 15 permet au roublard d’ignorer
+  les 6 premiers mètres de la chute (au lieu des 3 premiers mètres).
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'Un roublard qui dispose de ce talent gagne un bonus de circonstances
+  de +4 aux tests d’Escamotage quand il essaie de dissimuler une arme. De plus, s’il
+  fait une attaque sournoise pendant le round de surprise à l’aide d’une arme cachée
+  dont son adversaire ignore l’existence, il n’a pas besoin de lancer les dés de dégâts
+  supplémentaires : l’attaque sournoise inflige automatiquement le maximum. Chaque
+  jour, il peut utiliser ce talent un nombre de fois égal à son modificateur de Charisme
+  (0 au minimum). '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui possède ce talent ajoute Dressage, Équitation
+  et Vol à ses compétences de classe et gagne un bonus de +2 aux tests pour conduire
+  un véhicule.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'Un roublard disposant de ce talent gagne Science de la subtilisation
+  comme don supplémentaire. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent peut utiliser la compétence
+  de Perception au lieu de celle de Survie pour suivre une piste.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent peut agir comme s’il avait
+  obtenu 20 sur son dé d’initiative pendant le round de surprise et ce, quelle que
+  soit sa valeur d’initiative réelle, mais il est contraint d’effectuer une action
+  d’attaque avec une arme à distance. La valeur réelle du jet d’initiative est utilisée
+  pour tous les rounds qui suivent. Si plusieurs roublards possédant ce talent participent
+  au même combat, leurs initiatives réelles déterminent l’ordre dans lequel ils agissent
+  mais leurs tours viennent en début de round, avant toutes les autres créatures.
+  Si le roublard ne peut pas agir au cours du round de surprise, ce talent n’a aucun
+  effet.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le roublard qui dispose de ce talent a un estomac en acier
+  ou s’est entraîné à supporter les poisons, surtout ceux qui s’ingèrent. Il gagne
+  un bonus de +1 aux jets de sauvegarde contre les poisons ingérés et un bonus de
+  +4 aux jets de sauvegarde contre les sorts et effets qui rendent nauséeux  ou fiévreux.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’un roublard disposant de ce talent utilise la compétence
+  d’Acrobaties pour se déplacer à sa pleine vitesse à travers l’espace contrôlé par
+  un ennemi sans provoquer d'attaques d’opportunité, le DD du test d’Acrobaties n’augmente
+  pas de 10.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui possède ce talent utilise une action rapide
+  pour pousser un adversaire à agir comme un allié en ce qui concerne la prise en
+  tenaille, et ce jusqu’au début du prochain tour du roublard.L’adversaire doit entendre
+  et voir le roublard qui doit réussir un test de Bluff opposé au test de Psychologie
+  de sa victime. Si le roublard réussit, son adversaire est considéré comme un allié
+  en ce qui concerne la prise en tenaille. Qu’il réussisse ou non, il ne peut plus
+  utiliser ce tour contre le même adversaire pendant 24 heures.Si le roublard rate
+  son test de 5 ou plus, il ne peut plus utiliser ce pouvoir contre tous les adversaires
+  qui le voient lors de son échec pendant 24 heures.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard possédant ce talent peut porter des attaques sournoises
+  tellement précises que ses coups handicapent ses adversaires. Un adversaire blessé
+  par une attaque sournoise portée par le roublard subit un affaiblissement temporaire
+  de 2 points de Force.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’un roublard possédant ce talent inflige des dégâts
+  d’attaque sournoise à un ennemi, celui-ci est affecté par une dissipation de la
+  magie ciblée qui vise l’effet magique de plus bas niveau dont il bénéficie pour
+  l’instant. Le niveau de lanceur de sorts de cette capacité est égal au niveau du
+  roublard. Le roublard doit posséder le talent de magie majeure pour pouvoir choisir
+  ce talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, lorsque le roublard disposant de ce talent
+  est touché par une attaque au corps à corps, il peut la rediriger vers une créature
+  adjacente par une action libre. La créature choisie doit pouvoir être atteinte par
+  l’attaque qui était initialement dirigée vers le roublard et l’attaquant qui a porté
+  cette attaque doit effectuer un nouveau jet d’attaque contre la cible désignée par
+  le roublard.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Chaque fois que le roublard disposant de ce talent utilise
+  le talent Attaque sournoise puissante, tous les 1 et les 2 qui apparaissent sur
+  les dés de dégâts d’attaques sournoises sont considérés comme des 3. Le roublard
+  doit posséder le talent Attaque sournoise puissante avant de pouvoir gagner ce pouvoir.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui dispose de ce talent peut choisir un environnement
+  dans la liste des environnements de prédilection du rôdeur. Il passe maître dans
+  l’art de se dissimuler dans cet environnement et peut utiliser Discrétion pour se
+  cacher, même si quelqu’un l’observe. Un roublard peut choisir ce talent de maître
+  à plusieurs reprises mais il s’applique à chaque fois à un nouvel environnement.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard disposant de ce talent peut appliquer deux doses
+  de poison en même temps sur une arme. Il peut s’agir de poisons différents, auquel
+  cas ils affectent tous les deux (et individuellement) la cible, ou de deux doses
+  d’un même poison, auquel cas la fréquence du poison est augmentée de 50% et le DD
+  du jet de sauvegarde, de +2. Ce talent est une exception à la règle indiquant que
+  plusieurs poisons par blessure ne peuvent pas être administrés en même temps.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Un roublard doté de ce talent peut tenter de répandre une
+  rumeur dans une petite ville ou dans une agglomération plus importante grâce à un
+  test de Bluff. Chaque semaine, il peut faire cela un nombre de fois égal à son modificateur
+  de Charisme (0 au minimum).Le DD est basé sur la taille de la ville et il faut une
+  semaine pour que la rumeur se propage. En cas de réussite, la communauté accepte
+  la rumeur comme un fait avéré. Si le roublard bat le DD de 5 ou plus, il réduit
+  le temps que la nouvelle met pour se répandre de 1d4 jours. En cas d’échec, la rumeur
+  n’a aucun poids mais si le roublard rate son test de 5 ou plus, c’est la rumeur
+  inverse ou une théorie opposée qui se répand sur le sujet.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, le roublard peut choisir de ne pas compter
+  ses dégâts d’attaques sournoise pour tenter d’assommer un adversaire. Il doit décider
+  d’utiliser ce talent avant le jet d’attaque. Si l’attaque touche, elle inflige des
+  dégâts normaux, mais au lieu des dégâts d’attaques sournoise (ou des autres effets
+  déclenchés par les attaques sournoises) qui y seraient normalement ajoutés, la cible
+  tombe inconsciente pendant 1d4 rounds. Si la cible réussit un jet de Vigueur, elle
+  n’est pas inconsciente mais seulement chancelante pendant 1 round. Le DD de ce jet
+  de sauvegarde vaut 10 + la moitié du niveau du roublard + le modificateur d’Intelligence
+  du roublard.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard doté de ce talent se laisse difficilement tromper
+  par les illusions. Au début de son tour il peut faire un jet de Volonté pour révéler
+  tout illusion qu'il peut voir, même s'il n'interagit pas avec. S'il échoue, il peut
+  refaire le jet de sauvegarde au tour suivant contre le même DD. S'il échoue de nouveau,
+  il ne dispose pas de nouvelle chance.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard peut choisir un don supplémentaire plutôt qu’un
+  talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Ce talent représente l’aisance avec laquelle de nombreux roublards
+  parviennent à échapper aux effets magiques visant à les contrôler. Chaque fois que
+  le personnage est pris pour cible par un sort ou effet de type enchantement et qu’il
+  rate son jet de sauvegarde, il peut tenter un second jet de sauvegarde un round
+  plus tard (avec le même DD). Il n’a droit qu’à une seule seconde chance par attaque.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Ce talent a un effet similaire à la capacité d’esquive totale
+  mais lorsque le roublard qui le possède est soumis à une attaque qui autorise un
+  jet de Réflexes pour réduire les dégâts de moitié, il ne subit aucun dégât s’il
+  réussit son jet de sauvegarde et seulement la moitié des dégâts dans le cas contraire.
+  Le roublard perd les avantages de ce talent s’il est sans défense.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’un roublard disposant de ce talent construit un piège
+  mécanique, il ne paie que 75% du coût normal.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui dispose de ce talent gagne un familier, comme
+  le permet le pacte magique du magicien. Ce pouvoir fonctionne de la même manière
+  mais le niveau de magicien effectif du roublard est égal à son niveau de classe
+  -4. Le roublard doit avoir les talents magie mineure et magie majeure avant de choisir
+  celui-ci.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Quand un roublard qui dispose de ce talent réussit une attaque
+  avec une arme de corps à corps, sa cible ne peut plus faire d’attaques d’opportunité
+  avant le début du prochain tour du roublard. Le roublard doit connaître réactions
+  lentes avant de choisir ce pouvoir.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’un roublard disposant de ce talent touche une créature
+  avec une attaque de corps à corps qui inflige des dégâts d’attaques sournoises,
+  la cible ne peut pas effectuer de pas de placement de 1,50 m avant le début du tour
+  suivant du roublard.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, un roublard disposant de ce talent peut
+  relancer un test de Connaissances, de Perception ou de Psychologie pour tenter d’obtenir
+  de nouvelles ou de meilleures informations. Ce nouveau jet doit être fait le même
+  jour que le jet initial.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui possède ce talent gagne un bonus de +10 aux
+  tests de conduite de véhicule. Il doit connaître le talent spécialiste de la fuite
+  avant de prendre celui-ci.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, un roublard disposant de ce talent peut
+  gagner un bonus de +10 à un unique test de Déguisement.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le roublard est tellement sûr de lui qu’il peut utiliser certaines
+  de ses compétences en toute confiance même dans les cas extrêmes.Lorsqu’il gagne
+  ce talent, le roublard sélectionne un nombre de compétences égal à 3 + son modificateur
+  d’Intelligence. Chaque fois qu’il se sert de l’une d’elles, il peut faire 10 même
+  en situation de stress ou lorsqu’il est distrait. Le roublard peut choisir ce talent
+  plusieurs fois, mais il doit alors l’associer à de nouvelles compétences à chaque
+  fois.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par round, un roublard possédant ce talent peut tenter
+  une attaque d’opportunité contre une créature venant juste d’être blessée au corps
+  à corps par un autre personnage. Cette attaque est déduite du nombre d’attaques
+  d’opportunité que le personnage peut effectuer au cours de ce round. Cette capacité
+  ne peut pas être utilisée plus d’une fois par round et ce, même si le roublard possède
+  le don Attaques réflexes.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard possédant ce talent peut accompagner les coups
+  mortels et ainsi encaisser moins de dégâts. Une fois par jour, alors qu’il vient
+  d’être touché par une attaque qui le ferait tomber à 0 point de vie ou moins (mais
+  pas s’il est victime d’un sort ou d’un pouvoir spécial), il peut tenter d’exécuter
+  un roulé-boulé afin de réduire la violence du coup. Il effectue un jet de Réflexes
+  (DD = points de dégâts encaissés) et, en cas de succès, les dégâts qu’il devait
+  encaisser sont réduits de moitié. En cas d’échec, il reçoit les dégâts normaux.
+  Pour tenter cette manœuvre désespérée, il doit voir venir l’attaque et pouvoir y
+  réagir (c’est impossible s’il se trouve dans une situation où il perd son bonus
+  de Dextérité à la CA). Comme ce type d’attaque n’autorise normalement pas un jet
+  de Réflexes pour réduire les dégâts de moitié, le pouvoir d’esquive totale du roublard
+  ne lui est d’aucune utilité dans un tel cas de figure.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Un roublard qui possède ce talent peut faire un test d’Escamotage
+  au lieu d’un test de manoeuvre offensive quand il tente de désarmer un adversaire.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, un roublard disposant de ce talent peut
+  désigner comme proie un unique ennemi qui lui est adjacent. Jusqu’à la fin du prochain
+  tour du roublard, celui-ci peut ajouter ses dégâts d'attaques sournoises à toutes
+  les attaques effectuées contre sa proie, même si celle-ci n’est ni prise en tenaille
+  ni prise au dépourvu.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Lorsqu’un roublard disposant de ce talent utilise sa compétence
+  de Discrétion pour un tir embusqué, son test de Discrétion ne subit qu’un malus
+  de –10 (au lieu de –20).
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Une fois par jour, lorsque le roublard devrait être réduit
+  à 0 point de vie ou moins par une attaque au corps à corps, il peut effectuer un
+  pas de placement de 1,50 m par une action immédiate. Si ce mouvement lui permet
+  de sortir de la zone contrôlée par l’attaquant, il ne subit aucun dégât pour cette
+  attaque. Le roublard est chancelant pendant 1 round au cours de son prochain tour.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 1, le pistolier peut faire une attaque de contact
+  au lieu d’une attaque normale quand il tire sur une cible située au-delà du premier
+  facteur de portée de son arme à feu. Cet exploit lui coûte 1 point d’audace par
+  facteur de portée au-delà du premier. Lorsque le pistolier accomplit cet exploit,
+  il subit toujours un malus de -2 aux jets d’attaque pour chaque facteur de portée
+  au-delà du premier.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 1, le pistolier devient étrangement doué pour
+  éviter les attaques à distance. Quand il est victime d’une telle attaque, il peut
+  dépenser 1 point d’audace pour se déplacer de 1,50 m (1 c) par une action immédiate.
+  Il gagne alors un bonus de +2 à la CA contre l’attaque qui a déclenché ce pouvoir.
+  Il ne peut pas accomplir cet exploit s’il porte plus qu’une armure légère ou intermédiaire
+  et une charge légère.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 1, par une action simple, le pistolier peut débarrasser
+  une arme à feu de la condition brisée si elle est due à un long feu. Le pistolier
+  doit avoir au moins 1 point d’audace pour réussir cet exploit. S’il dépense 1 point
+  pour l’accomplir, il peut nettoyer son arme par une action de mouvement au lieu
+  d’une action simple.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 3, le pistolier peut, par une action simple, faire
+  une attaque surprise au corps à corps avec la crosse de son arme à feu. On considère
+  alors qu’il sait manier l’arme à feu comme une arme de corps à corps et il gagne
+  un bonus aux jets d’attaque et de dégâts égal au bonus d’altération de l’arme. La
+  crosse inflige des dégâts contondants en fonction de sa taille. Les armes à feu
+  à une main infligent 1d6 points de dégâts (1d4 si elles se trouvent entre les mains
+  d’une créature P) et celles à deux mains 1d10 (1d8 pour une créature P). Quelle
+  que soit la taille du propriétaire de l’arme, elle a un multiplicateur de critique
+  de 20/×2. Si le pistolier réussit son attaque, il a droit de faire un test de manoeuvre
+  offensive pour faire tomber son adversaire. Cet exploit coûte 1 point d’audace.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 3, tant que le pistolier a au moins 1 point d’audace,
+  il gagne les avantages suivants : un bonus de +2 aux tests d’initiative et, s’il
+  dispose du don Arme en main, qu’il a les mains libres et que l’arme n’est pas dissimulée,
+  il peut sortir une unique arme à feu lors du test d’initiative.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 3, si le pistolier possède au moins 1 point d’audace,
+  il peut faire un tir utilitaire tiré de la liste qui suit. Chaque tir utilitaire
+  s’applique à une unique attaque qui s’effectue avec une arme à feu. Le pistolier
+  doit préciser le type de tir qu’il utilise avant de tirer.• Cautérisation : Le pistolier
+  tire une fois avant de presser le canon brûlant de son arme contre lui ou contre
+  une créature adjacente pour cautériser une blessure. Au lieu d’infliger des points
+  de dégâts, le tir met fin à un saignement sur la cible. Le pistolier n’a pas besoin
+  de faire de jet d’attaque pour accomplir cet exploit, il tire en l’air (ce qui consomme
+  tout de même des munitions).• Déplacer un objet abandonné : Le pistolier fait un
+  test d’attaque contre un objet abandonné de taille TP ou moins, situé à moins d’un
+  facteur de portée. Un objet TP a une CA de 5, un objet Min de 7 et un objet Infime
+  de 11. Si le pistolier touche sa cible, il ne l’endommage pas, il la déplace à un
+  maximum de 4,50 m (3 c) de sa position d’origine. Si le pistolier rate son jet d’attaque,
+  il abîme l’objet normalement.• Faire sauter la serrure : Le pistolier fait un jet
+  d’attaque contre une serrure située à moins d’un facteur de portée. Une serrure
+  Minuscule a généralement une CA de 7, les plus grosses une CA moindre. La serrure
+  gagne un bonus à la CA contre l’attaque du pistolier en fonction de sa qualité.
+  Une serrure simple a un bonus de +10, une serrure ordinaire un bonus de +15, une
+  bonne serrure un bonus de +20 et une serrure de qualité supérieure un bonus de +30.
+  Un verrou du mage donne un bonus de +10 à la CA contre ce type d’attaque. Si le
+  pistolier touche, la serrure est détruite et on peut ouvrir l’objet comme s’il n’avait
+  pas été verrouillé. En cas d’échec, la serrure est détruite mais l’objet est coincé
+  et toujours considéré comme verrouillé. On peut toujours l’ouvrir en refaisant cet
+  exploit et en le réussissant, en faisant un test de Sabotage ou avec un test de
+  casser. Le DD des deux tests augmente de 10 après l’échec. Les clefs, les combinaisons
+  et autres méthodes de déverrouillage mécanique ne fonctionnent plus mais un sort
+  de déblocage permet encore d’ouvrir l’objet. Le créateur du verrou du mage peut
+  toujours ignorer la fermeture magique.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 7, le pistolier peut utiliser une action complexe
+  pour faire une unique attaque avec son arme à feu en visant une partie précise de
+  sa cible. Si la créature visée est dépourvue d’une des parties anatomiques données
+  dans la liste suivante, le pistolier ne peut pas viser cette partie de corps. Cet
+  exploit coûte 1 point d’audace, quelle que soit la partie visée. Les créatures immunisées
+  contre les attaques sournoises le sont aussi contre cet exploit.• Ailes : Si le
+  pistolier touche sa cible, elle reçoit des dégâts normaux et doit réussir un test
+  de Vol DD 20 ou faire une chute de 6 m (4 c).• Bras : Si le pistolier touche sa
+  cible, elle ne subit pas de dégâts mais elle lâche un objet choisi par le pistolier,
+  même s’il est tenu à deux mains. Un objet attaché à un gantelet ne tombe pas même
+  si le pistolier touche le bras.• Jambes : Si le pistolier touche sa cible, elle
+  subit des dégâts normaux et tombe. Les créatures qui possèdent quatre jambes ou
+  plus ou qui sont immunisées contre les attaques de croc-en-jambe sont immunisées
+  contre cet effet.• Tête : Si le pistolier touche sa cible, elle subit des dégâts
+  normaux et elle est confuse pendant 1 round. C’est un effet mental.• Torse : Si
+  le pistolier vise le torse, il menace une zone de critique de 19-20.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 7, un pistolier qui possède au moins 1 point d’audace
+  peut utiliser une action simple pour rater volontairement une créature qu’il est
+  à même de toucher avec son arme à feu. Sa cible est alors prise au dépourvu jusqu’au
+  début de son prochain tour.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 7, par une action complexe, le pistolier peut
+  prendre le temps de viser soigneusement et rassembler le potentiel de toutes ses
+  attaques dans un seul tir mortel. Il tire alors sur une cible unique et fait autant
+  de jets d’attaque que son bonus de base à l’attaque le lui permet. Les jets se font
+  du bonus d’attaque le plus élevé au plus bas, comme si le pistolier faisait une
+  attaque à outrance. Si un des jets lui permet de toucher la cible, on considère
+  que son unique tir a touché. À chaque fois qu’il réussit une attaque de plus, il
+  augmente les dégâts du tir d’un montant égal au dé de dégâts de base de l’arme.
+  Par exemple, si un pistolier de niveau 7 fait un tir mortel au mousquet et touche
+  avec ses deux attaques, il inflige 2d12 points de dégâts au lieu de 1d12. Les dégâts
+  de précision et les dégâts supplémentaires des aptitudes spéciales des armes (comme
+  une arme de feu) viennent s’ajouter en tant que modificateurs de dégâts, cet exploit
+  ne les augmente pas. Si le pistolier fait un ou plusieurs coups critiques, il les
+  confirme une seule fois, en utilisant son meilleur bonus de base à l’attaque -5.
+  Ce malus est réduit de -1 pour chaque critique en cours au-delà du premier (avec
+  un minimum de 0). Lors d’un tir mortel, le pistolier fait long feu uniquement si
+  toutes ses attaques font long feu. Il ne peut pas accomplir cet exploit avec un
+  tromblon ou une autre arme à dispersion quand il attaque des créatures situées dans
+  un cône. Le pistolier doit dépenser 1 point d’audace pour réaliser cet exploit.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 11, quand le pistolier touche une créature vivante
+  avec une arme à feu, il peut dépenser 1 point d’audace par une action libre pour
+  infliger des dégâts de saignement supplémentaires. Le montant de dégâts du saignement
+  est égal au modificateur de Dextérité du pistolier. Sinon, il peut dépenser 2 points
+  d’audace pour infliger 1 point de saignement d’affaiblissement de Force, de Dextérité
+  ou de Constitution (au choix du pistolier). Les créatures immunisées contre les
+  attaques sournoises sont également immunisées contre ces dégâts de saignement.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 11, quand le pistolier fait long feu avec un pistolet
+  brisé, il peut dépenser 1 point d’audace pour l’empêcher d’exploser, même si cela
+  ne le répare pas pour autant.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 11, tant que le pistolier a au moins 1 point d’audace,
+  il peut recharger le barillet d’une arme à feu à une ou deux mains par une action
+  rapide, une fois par round. S’il dispose du don Rechargement rapide ou s’il utilise
+  des cartouches alchimiques (ou les deux), il peut recharger le barillet par une
+  action libre une fois par round. De plus, quand il réalise cet exploit, il ne provoque
+  pas d’attaques d’opportunité.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 15, le pistolier peut dépenser des points d’audace
+  pour refaire un jet de sauvegarde ou un test de compétence : 2 point pour un jet
+  de sauvegarde et 1 pour un test de compétence. Le pistolier doit conserver le résultat
+  du second jet, même s’il est pire. Le pistolier ne peut pas utiliser l’audace absolue,
+  l’Exploit signé ni aucun autre effet qui vise à réduire le montant d’audace pour
+  diminuer le coût de cet exploit.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 15, tant que le pistolier a au moins 1 point d’audace,
+  il bénéficie de l’esquive totale, instinctive et instinctive supérieure du roublard.
+  Pour l’esquive instinctive supérieure, il utilise ses niveaux de pistolier comme
+  niveaux de roublard.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 15, le pistolier peut dépenser 1 point d’audace
+  pour tirer en l’air. Toutes les créatures situées à moins de 9 m (6 c) sont victimes
+  d’un sort de terreur. Le DD de l’effet est de 10 + 1/2 niveau du pistolier + modificateur
+  de Sagesse du pistolier.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 19, quand un pistolier touche une créature, il
+  peut dépenser 2 points d’audace pour tenter de l’étourdir pendant 1 round. La créature
+  doit faire un jet de Vigueur (DD = 10 + 1/2 niveau du pistolier + modificateur de
+  Sagesse du pistolier). Si elle échoue, elle est étourdie pour 1 round. Les créatures
+  immunisées contre les coups critiques sont aussi immunisées contre cet effet.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 19, quand le pistolier réussit un coup critique,
+  il peut dépenser 1 point d’audace. Il inflige alors des dégâts normaux mais la cible
+  doit faire un jet de Vigueur avec un DD égal à 10 + 1/2 niveau du pistolier + modificateur
+  de Dextérité du pistolier. Si elle rate son jet, elle meurt. C’est une attaque de
+  mort. Quand le pistolier accomplit cet exploit, il ne récupère pas d’audace pour
+  avoir confirmé un coup critique ni achevé un ennemi.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 19, quand le pistolier tombe à 0 point de vie
+  ou moins, il peut dépenser tous les points d’audace qui lui restent (1 au minimum)
+  pour passer à seulement 1 point de vie au lieu de 0.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 1, le bretteur peut dépenser un point de panache
+  alors qu’il effectue un test d’Acrobaties, d’Escalade, d’Évasion, de Vol, d’Équitation
+  ou de Natation pour lancer 1d6 et ajouter ce résultat à celui du test. Il peut le
+  faire après avoir fait son test mais avant d’en connaître le résultat. S’il obtient
+  un 6 naturel sur le d6, il lance un autre d6 et ajoute son résultat au test. Il
+  continue de lancer 1d6 de plus à chaque fois qu’il obtient un 6 naturel, jusqu’à
+  un maximum de fois égal à son modificateur de Dextérité (1 au minimum).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Dès le niveau 1, quand un adversaire porte une attaque de
+  corps à corps contre le bretteur, ce dernier peut dépenser un point de panache par
+  une action immédiate pour se déplacer de 1,50 mètre (1 c). Il bénéficie alors d’un
+  bonus d’esquive à la CA égal à son modificateur de Charisme (0 au minimum) contre
+  l’attaque qui l’a poussé à utiliser cet exploit. Ce déplacement n’annule pas l’attaque
+  en cours, comme si le bretteur n’avait pas quitté sa case de départ. Ce déplacement
+  n’est pas un pas de placement de 1,50 mètre et provoque des attaques d’opportunité
+  de la part des créatures qui n’ont pas porté l’attaque à l’origine de ce déplacement.
+  Le bretteur peut exécuter cet exploit à condition de ne pas avoir d’armure ou seulement
+  une armure légère et de ne pas porter une charge supérieure à légère.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 1, quand l’adversaire effectue une attaque au
+  corps à corps contre le bretteur, ce dernier peut dépenser un point de panache et
+  une attaque d’opportunité pour tenter de parer. Le bretteur effectue son jet d’attaque
+  comme pour une attaque d’opportunité ordinaire. Si l’adversaire est plus grand que
+  lui, le bretteur subit un malus de –2 au jet pour chaque catégorie de taille de
+  différence. Si le bretteur obtient un résultat supérieur à celui de son assaillant,
+  l’attaque de ce dernier échoue automatiquement. Le bretteur doit annoncer qu’il
+  utilise cet exploit une fois que son adversaire a déclaré qu’il l’attaquait mais
+  avant qu’il fasse son jet d’attaque. Si le bretteur a réussi sa parade et qu’il
+  lui reste au moins un point de panache, il peut, par une action immédiate, porter
+  une attaque contre la créature dont il vient de parer l’assaut, à condition qu’elle
+  soit à portée d’allonge. Le bretteur ne peut pas utiliser un pouvoir ou un effet
+  pour réduire le coût en point de panache de cet exploit (comme le don Exploit signé).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Au niveau 3, si le bretteur possède encore un point de panache
+  au moins, il peut porter des frappes précises avec des armes de corps à corps perforantes
+  légères ou à une main (mais pas avec des attaques naturelles) et ajoute son niveau
+  de bretteur aux dégâts engendrés. Pour utiliser cet exploit, le bretteur ne doit
+  pas tenir d’arme dans sa main secondaire ni porter de bouclier autre qu’une targe.
+  Il peut utiliser ce pouvoir avec des armes de jet perforantes, légères ou à une
+  main tant que la cible se trouve dans un rayon de 9 mètres (6 c). Les créatures
+  immunisées contre les attaques sournoises sont aussi immunisées contre les dégâts
+  supplémentaires de l’attaque précise et les objets et pouvoirs qui protègent contre
+  les coups critiques protègent également contre les dégâts supplémentaires de l’attaque
+  précise. Ces dégâts supplémentaires sont des dégâts de précision qui ne sont pas
+  multipliés en cas de coup critique. Le bretteur peut, par une action rapide, dépenser
+  un point de panache pour doubler les dégâts supplémentaires de son attaque précise
+  lors de sa prochaine attaque. Il doit utiliser cet avantage avant la fin de son
+  tour, sinon, il est perdu. Le bretteur ne peut pas utiliser un pouvoir ou un effet
+  pour réduire le coût en point de panache de cet exploit (comme le don Exploit signé).
+class_name: []
+--- !<ClassFeat>
+class_feat_description: À partir du niveau 3, si le bretteur possède encore un point
+  de panache au moins et qu’il touche un adversaire avec une arme de corps à corps
+  perforante légère ou à une main, il peut utiliser l’Intimidation pour démoraliser
+  cet adversaire par une action rapide au lieu d’une action simple.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Au niveau 3, si le bretteur possède encore un point de panache
+  au moins, il gagne un bonus de +2 aux tests d’initiative. De plus, s’il possède
+  le don Arme en main, que ses mains sont vides et libres et qu’il a une arme de corps
+  à corps légère ou à une main qui n’est pas cachée, il peut dégainer cette arme lors
+  de son test d’initiative.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 3, si le bretteur a encore au moins un point de
+  panache, il peut se relever d’un bond par une action de mouvement sans provoquer
+  d’attaque d’opportunité. Il peut le faire par une action rapide s’il dépense un
+  point de panache.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Au niveau 7, si le bretteur possède encore un point de panache
+  au moins, au prix d'une action simple, il peut rater volontairement une créature
+  contre laquelle il peut effectuer une attaque de corps à corps avec une arme légère
+  ou à une main perforante qu’il manie à ce moment-là. La créature est alors privée
+  de son bonus de Dextérité à la CA jusqu’au début du prochain tour du bretteur.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Au niveau 7, le bretteur peut dépenser un point de panache
+  par une action complexe pour porter une attaque avec une arme de corps à corps perforante
+  légère ou à une main et estropier son adversaire. Le bretteur choisit la zone du
+  corps visée et, si son attaque touche, la cible souffre d’un effet dépendant de
+  la zone visée en plus de subir les dégâts normaux de l’attaque. Si la victime ne
+  possède pas certaines parties de corps, le bretteur ne peut évidemment pas les viser.
+  Les créatures immunisées contre les attaques sournoises sont aussi immunisées contre
+  les frappes handicapantes. Les objets et les pouvoirs qui protègent une créature
+  contre les coups critiques la protègent aussi contre les frappes handicapantes.•
+  Bras. La cible ne subit pas de dégâts de l’attaque mais lâche un objet qu’elle tient
+  (au choix du bretteur), même si c’est à deux mains. Le bretteur ne peut pas choisir
+  un objet tenu grâce à un gantelet à fixations.• Jambes. La cible tombe à terre.
+  Les créatures dotées de quatre pattes ou plus et celles immunisées contre les crocs-en-jambe
+  sont immunisées contre cet effet.• Tête. La cible est confuse pendant un round.
+  C’est un effet mental.• Torse ou ailes. La cible est chancelante pendant un round.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Au niveau 7, si le bretteur possède encore un point de panache
+  au moins, il ne subit aucun malus quand il effectue un test d’Acrobaties en se déplaçant
+  à sa vitesse de base complète pour traverser l’espace d’un ennemi ou une zone menacée
+  par des ennemis.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Au niveau 11, quand le bretteur touche une créature vivante
+  avec une attaque de corps à corps effectuée avec une arme de corps à corps perforante
+  légère ou à une main, il peut dépenser un point de panache par une action libre
+  pour infliger en plus des dégâts de saignement. Leur montant est égal au modificateur
+  de Dextérité du bretteur (1 au minimum). Le bretteur peut dépenser à la place 2
+  points de panache pour infliger un point de saignement de Force, de Dextérité ou
+  de Constitution (au choix du bretteur). Les créatures immunisées contre les attaques
+  sournoises sont également immunisées contre ce type de saignement.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 11, si le bretteur possède encore un point de
+  panache au moins, il profite des avantages des aptitudes de roublard esquive totale,
+  esquive instinctive et esquive instinctive supérieure. Pour l’esquive instinctive
+  supérieure, il remplace le niveau de roublard par son niveau de bretteur. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Au niveau 11, si le bretteur possède encore un point de panache
+  au moins, il est immunisé contre les manoeuvres de désarmement, de subtilisation
+  et de destruction d’arme effectuées à l’encontre d’une arme de corps à corps perforante
+  légère ou à une main qu’il manie.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 15, si le bretteur possède encore un point de
+  panache au moins, il peut faire 10 sur n’importe quel test d’Acrobaties, d’Escalade,
+  d’Évasion, de Vol, d’Équitation ou de Natation, même s’il est distrait ou en présence
+  d’un danger immédiat. Il peut utiliser cet exploit conjointement avec bravoure.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Au niveau 15, tant que le bretteur manie une main une arme
+  de corps à corps perforante légère ou à une main, il peut dépenser un point de panache
+  pour se battre sur la défensive par une action rapide au lieu d’une action simple.
+  Quand il se bat ainsi sur la défensive, le bonus d’esquive à la CA est de +4 et
+  le malus aux jets d’attaque de –2.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Au niveau 15, si le bretteur possède encore un point de panache
+  au moins, il peut effectuer une fente parfaite par une action complexe, en concentrant
+  tout son potentiel offensif dans une unique attaque de mêlée avec une arme de corps
+  à corps perforante légère ou à une main. Il effectue alors son attaque contre la
+  CA de contact de la cible et ignore toute réduction de dégâts.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Au niveau 19, quand le bretteur touche une créature avec une
+  arme de corps à corps perforante légère ou à une main, il peut dépenser 2 points
+  de panache pour étourdir sa victime pendant un round. La créature a droit à un jet
+  de Vigueur (DD = 10 + 1/2 niveau du bretteur + son modificateur de Dextérité), sinon,
+  elle est étourdie pendant 1 round. Les créatures immunisées contre les coups critiques
+  sont aussi immunisées contre cet effet.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Au niveau 19, quand le bretteur confirme un coup critique
+  avec une arme de corps à corps perforante légère ou à une main, il peut dépenser
+  un point de panache pour effectuer une estocade, en plus des dégâts infligés normalement.
+  La cible doit réussir un jet de Vigueur (DD = 10 + 1/2 niveau du bretteur + son
+  modificateur de Dextérité) pour ne pas mourir sur-le-champ. C’est une attaque de
+  mort. Le bretteur ne récupère aucun point de panache quand il accomplit cet exploit.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Au niveau 19, quand le bretteur est réduit à 0 point de vie
+  ou moins, il peut dépenser tout le panache qui lui reste pour tomber à la place
+  à 1 point de vie. Il doit avoir au moins un point de panache à dépenser. Ce pouvoir
+  ne fonctionne pas contre les effets qui tuent le bretteur sur-le-champ sans lui
+  infliger de points de dégâts.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' L’enquêteur peut utiliser l’action aider autrui par une
+  action de mouvement au lieu d’une action simple. Il peut dépenser une utilisation
+  d’inspiration pour le faire par une action rapide.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: L’enquêteur utilise l’Art de la magie pour identifier les
+  propriétés et les mots de commande des objets magiques sans recourir à détection
+  de la magie ou à des sorts similaires. L’enquêteur doit être de niveau 7 au moins
+  pour choisir ce talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Quand l’enquêteur inflige des dégâts avec la frappe étudiée,
+  il peut faire une manoeuvre offensive de repositionnement par une action libre contre
+  la créature qu’il a blessée avec sa frappe. Le repositionnement ne provoque pas
+  d’attaque d’opportunité. L’enquêteur doit être de niveau 13 au moins pour choisir
+  ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'Le personnage peut choisir l’une des découvertes d’alchimiste
+  suivantes comme talent d’enquêteur : combinaison d’extraits, poison concentré, dilution,
+  élixir de vie, potion améliorée, potion éternelle, potion prolongée, infusion, mutagène,
+  transformation de poison. Pour choisir une découverte d’alchimiste, l’enquêteur
+  doit avoir un niveau suffisant pour remplir les conditions requises, en remplaçant
+  le niveau d’alchimiste par son niveau d’enquêteur. Le personnage peut choisir ce
+  pouvoir à plusieurs reprises mais il s’applique à chaque fois à une découverte d’alchimiste
+  différente.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Quand un enquêteur disposant de ce talent utilise l’aptitude
+  de combat étudié, il peut appliquer le bonus d’intuition à sa CA contre les attaques
+  de la cible du combat étudié au lieu de l’appliquer à ses jets d’attaque contre
+  elle (il conserve le bonus d’intuition aux jets de dégâts). Il doit choisir le type
+  de bonus souhaité lorsqu’il utilise le combat étudié et ne peut plus en changer,
+  à moins d’utiliser à nouveau le combat étudié. L’enquêteur doit être de niveau 9
+  au moins pour choisir ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Quand l’enquêteur fait un test de Psychologie, il lance deux
+  fois le d20 et conserve le meilleur résultat. S’il utilise l’inspiration sur un
+  test de Psychologie, il lance deux fois le dé d’inspiration et conserve le meilleur
+  résultat. Une fois par jour, il peut dépenser une utilisation d’inspiration et cibler
+  une unique créature dans un rayon de 9 mètres (6 c) qu’il voit et entend. Il perçoit
+  alors ses pensées superficielles, comme s’il s’était concentré pendant 3 rounds
+  avec une détection de pensées, à moins que la cible ne réussisse un jet de Volonté.
+  Le DD du jet de sauvegarde est de 10 + 1/2 niveau d’enquêteur + son modificateur
+  d’Intelligence. Si la cible rate son jet, l’enquêteur peut continuer à lire ses
+  pensées superficielles pendant un nombre de rounds égal à la moitié de son niveau
+  de classe. L’enquêteur doit être de niveau 5 au moins pour choisir ce talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' L’enquêteur peut utiliser son aptitude de combat étudié
+  par une action rapide au lieu d’une action de mouvement.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: L’enquêteur peut utiliser la compétence Utilisation d’objets
+  magiques même sans formation. S’il est formé dans cette compétence, il n’a pas besoin
+  de dépenser d’utilisations d’inspiration quand il veut se servir de son aptitude
+  d’inspiration avec cette compétence.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Quand l’enquêteur réussit un test de Connaissances pour
+  identifier les pouvoirs spéciaux ou les faiblesses d’un monstre, il peut dépenser
+  une utilisation d’inspiration, par une action rapide, pour offrir un bonus d’intuition
+  de +4 aux jets d’attaque contre ce monstre ou ce type de monstre pendant 1 round
+  à tous les alliés situés à 9 mètres (6 c) ou moins et capables de l’entendre. L’enquêteur
+  doit être de niveau 7 au moins pour choisir ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Quand l’enquêteur inflige des dégâts avec une frappe étudiée,
+  son adversaire doit réussir un jet de Vigueur, sinon, il devient définitivement
+  sourd. S’il réussit son jet, il est seulement sourd pour 1 round. Le DD du jet de
+  Vigueur est égal à 10 + 1/2 niveau d’enquêteur + son modificateur d’Intelligence.
+  Ce pouvoir n’affecte pas les créatures sourdes. On peut soigner la surdité avec
+  guérison suprême, régénération, guérison de la cécité/surdité ou des effets similaires.
+  L’enquêteur doit être de niveau 15 au moins pour choisir ce talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: 'Quand l’enquêteur inflige des dégâts avec une frappe étudiée,
+  son adversaire doit réussir un jet de Vigueur, sinon, il devient définitivement
+  aveugle. S’il réussit son jet, il est seulement ébloui pendant 1d4 rounds. Le DD
+  du jet de Vigueur est égal à 10 + 1/2 niveau d’enquêteur + son modificateur d’Intelligence.
+  Ce talent n’a aucun effet contre les créatures qui n’ont pas besoin d’yeux pour
+  voir ou qui ont plus de deux yeux (toutefois, si le MJ le désire, l’adversaire peut
+  finir par être aveuglé si l’enquêteur réussit plusieurs coups critiques). On peut
+  soigner la cécité grâce à une guérison suprême, à une régénération, à une guérison
+  de la cécité/surdité'''' ou à des pouvoirs similaires. L’enquêteur doit être de
+  niveau 17 au moins pour choisir ce talent. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Quand l’enquêteur inflige des dégâts avec une frappe étudiée,
+  son adversaire doit réussir un jet de Vigueur, sinon, il est confus pendant 1d4
+  +1 rounds. S’il réussit son jet, il est seulement confus pour 1 round. Le DD du
+  jet de Vigueur est égal à 10 + 1/2 niveau d’enquêteur + son modificateur d’Intelligence.
+  Ce pouvoir n’affecte pas les créatures artificielles, les créatures dénuées d’intelligence,
+  les vases, les plantes, les morts-vivants, les créatures intangibles et les créatures
+  immunisées contre les coups critiques. L’enquêteur doit être de niveau 19 au moins
+  pour choisir ce talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Quand l’enquêteur blesse une créature avec une frappe étudiée,
+  il peut faire une manoeuvre de croc-en-jambe par une action libre contre la créature
+  qu’il a blessée. Ce croc-en-jambe ne provoque pas d’attaque d’opportunité. L’enquêteur
+  doit être de niveau 9 au moins pour choisir ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Quand l’enquêteur blesse avec une frappe étudiée, il peut
+  faire une manoeuvre offensive de subtilisation contre elle par une action libre.
+  Cette subtilisation ne provoque pas d’attaque d’opportunité. L’enquêteur doit être
+  de niveau 13 au moins pour choisir ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Quand l’enquêteur fait appel à son inspiration, il lance
+  un d8 au lieu d’un d6. Au niveau 20, il lance 2d8 et ajoute les deux dés au résultat.
+  L’enquêteur doit être de niveau 7 au moins pour choisir ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: L’enquêteur peut utiliser son inspiration sur un test de Bluff,
+  de Sabotage, de Déguisement, d’Intimidation ou d’Escamotage sans dépenser d’inspiration,
+  à condition qu’il soit formé à cette compétence.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' L’enquêteur peut utiliser son aptitude d’inspiration quand
+  il effectue un test de Diplomatie, Premiers secours, Perception, Profession et Psychologie
+  sans dépenser d’utilisation d’inspiration, à condition qu’il soit formé dans la
+  compétence concernée.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Quand l’enquêteur utilise son inspiration lors d’un jet
+  d’attaque ou de sauvegarde, il dépense une seule utilisation d’inspiration au lieu
+  de deux. L’enquêteur doit être de niveau 9 au moins pour choisir ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Le personnage choisit une arme (comme canne-épée ou épée
+  courte). Tant qu’il lui reste au moins un point d’inspiration dans sa réserve, il
+  n’a pas besoin de dépenser d’utilisations d’inspiration quand il utilise l’inspiration
+  en attaquant avec cette arme. L’enquêteur doit connaître le talent d’enquêteur inspiration
+  martiale et être de niveau 19 au moins pour choisir ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' L’enquêteur choisit une compétence. Il peut utiliser son
+  aptitude d''inspiration quand il effectue un test avec cette compétence sans dépenser
+  d’utilisation d’inspiration. '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Quand l’enquêteur lance son dé d’inspiration, il peut en
+  lancer un deuxième et conserver le meilleur résultat. L’enquêteur doit être de niveau
+  13 au moins pour choisir ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' L’enquêteur peut ajouter son dé d’inspiration à ses tests
+  de Connaissances, Linguistique et Art de la magie sans dépenser d’utilisation d’inspiration,
+  même s’il n’est pas formé dans la compétence.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Quand l’enquêteur réussit un test d’Intimidation pour démoraliser
+  un adversaire, il peut dépenser une utilisation d’inspiration pour augmenter automatiquement
+  le résultat du test de 5 quand il détermine la durée de l’effet de démoralisation.
+  Il peut dépenser ainsi plusieurs utilisations d’inspiration pour augmenter la durée
+  de l’effet. Il doit être formé à l’Intimidation pour utiliser ce talent. Le talent
+  d’enquêteur inspiration de la pègre n’a aucun effet sur celui-ci.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: L’enquêteur apprend à dissimuler ses pensées et ses projets
+  aux regards indiscrets et à la magie intrusive. Quand l’enquêteur utilise son inspiration
+  lors d’un test de Bluff pour transmettre un message secret ou lors d’un test de
+  Linguistique pour créer une contrefaçon, il lance le dé d’inspiration deux fois
+  et conserve le meilleur résultat. De plus, l’enquêteur peut faire appel à son inspiration
+  quand il effectue un jet de sauvegarde contre un sort ou un effet de divination
+  sans dépenser d’utilisation d’inspiration. L’enquêteur doit être de niveau 11 au
+  moins pour choisir ce talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Quand l’enquêteur blesse une cible étudiée, la créature
+  est fiévreuse pendant 1 round. L’enquêteur doit être de niveau 7 au moins pour choisir
+  ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Quand l’enquêteur blesse une cible étudiée, cette dernière
+  ne peut pas faire d’attaque d’opportunité pendant 1 round. L’enquêteur doit être
+  de niveau 5 au moins pour choisir ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: L’enquêteur peut utiliser la Perception au lieu de la Survie
+  pour trouver ou suivre une piste, en utilisant le même DD qu’avec la Survie. L’enquêteur
+  doit être formé dans la compétence de Perception pour choisir ce talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' L’enquêteur peut toujours faire 10 à un test de Connaissances,
+  même s’il est en danger immédiat ou distrait. Il peut dépenser une utilisation d’inspiration
+  pour faire 20 à un test de Connaissances dans ces mêmes conditions. L’enquêteur
+  doit être de niveau 11 au moins pour choisir ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' L’enquêteur peut choisir l’un des talents de roublard suivant
+  au lieu d’un talent d’enquêteur : acrobate inégalable, audace, beau parleur, brasse
+  vigoureuse, camouflage, charmeur, contacts au marché noir, crochetage rapide, debout,
+  déclenchement extraordinaire, déguisement rapide, dénicheur de pièges, désamorçage
+  rapide, difficile à berner, discret et rapide, doigts rapides, entraînement aux
+  armes à feu, équilibriste, extraire des informations, faire le mur, fin observateur,
+  fuite rapide, grimpeur agile, installation de pièges rapide, magie majeure, magie
+  mineure, main agile, maître des cordes, maîtrise du terrain, mensonge convaincant,
+  mouvement à quatre pattes, organiser l’attaque, poison persistant, polyglotte doué,
+  résilience, retenir son souffle, saut de l’expert, subtilisation au combat, tripes
+  d’acier. Les effets de talent basés sur le niveau de roublard utilisent le niveau
+  d’enquêteur comme niveau effectif de roublard. Si le talent de roublard comporte
+  une condition requise (comme l’apprentissage de magie mineure avant d’apprendre
+  magie majeure), l’enquêteur doit remplir cette condition avant de choisir le talent
+  de roublard. L’enquêteur peut choisir ce talent à plusieurs reprises mais il doit
+  à chaque fois choisir un talent de roublard différent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Quand l’enquêteur est pris au dépourvu, il peut dépenser une
+  utilisation d’inspiration pour ignorer cet état préjudiciable. Pour cela, il doit
+  être conscient et en état de décider d’utiliser ce talent à l’instant où il est
+  pris au dépourvu. Il n’a pas besoin d’accomplir une action pour utiliser ce talent.
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Si le tueur réussit une attaque sournoise, la vitesse de
+  déplacement de sa cible est diminuée de moitié pendant 1d4 rounds. La victime peut
+  annuler l’effet négatif en réussissant un jet de Vigueur (DD = 10 + 1/2 niveau du
+  tueur + son modificateur d’Intelligence). Si la cible possède plusieurs modes de
+  déplacement, le tueur doit choisir celui qu’il réduit de moitié. Si le tueur affecte
+  la vitesse de vol d’une créature, il réduit également sa manoeuvrabilité d’un cran.
+  Si la créature est en vol à ce moment là, elle tombe, à moins de réussir un test
+  de Vol DD 10. Si le tueur vise une créature qui souffre déjà des effets de ce talent,
+  sa vitesse et sa manoeuvrabilité ne diminuent pas davantage ; en revanche, le tueur
+  peut prolonger la durée de l’effet de 1d4 rounds ou affecter un autre mode de déplacement
+  (dans ce cas, la durée de chaque effet s’écoule indépendamment).'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Le tueur augmente de 3 mètres la distance à partir de laquelle
+  il peut effectuer une attaque sournoise. Il peut choisir ce talent à plusieurs reprises
+  pour cumuler ses effets. Le tueur doit avoir atteint le niveau 4 avant de choisir
+  ce talent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Le tueur obtient Sabotage comme compétence de classe. Il
+  gagne également les pouvoirs de roublard recherche de pièges et sens des pièges.
+  Il utilise son niveau de tueur comme niveau de roublard effectif.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Le tueur choisit un style de combat de rôdeur (comme archerie
+  ou combat à deux armes). Il obtient un don de combat issu de la première liste de
+  dons de ce style. Il n’a pas besoin de remplir les conditions requises tant que
+  le don appartient à la liste du style de combat choisi. Au niveau 6, il peut choisir
+  de nouveau ce talent et ajouter à son éventail de choix les dons disponibles pour
+  les rôdeurs de niveau 6 dans le style qu’il a déjà choisi. De même, au niveau 10,
+  il peut choisir à nouveau ce talent et faire son choix parmi les dons accessibles
+  aux rôdeurs de niveau 10 dans la liste du style choisi.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Un tueur peut choisir l’un des talents de roublard suivant
+  au lieu d’un talent de tueur :Talents• Allié involontaire, Attaque sanglante*, Attaque
+  sournoise puissante*• Attaque surprise, Audace, Botte secrète• Camouflage, Dénicheur
+  de pièges, Difficile à berner• Discret et rapide, Empoisonnement rapide, Entraînement
+  aux armes à feu• Formation martiale, Maîtrise du terrain, Mouvement à quatre pattes•
+  Oeil de l’archer, Réactions lentes*, Tir soudain• Roublard en finesse, Poison persistantLes
+  effets des talents basés sur le niveau de roublard appliquent à la place le niveau
+  de tueur. Si le talent de roublard impose une condition (comme l’apprentissage de
+  la magie mineure avant d’apprendre la magie majeure), le tueur doit remplir cette
+  condition avant de choisir le talent de roublard. Le tueur peut choisir ce talent
+  à plusieurs reprises mais il doit à chaque fois choisir un talent de roublard différent.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Un tueur doué de ce talent dissimule ses pensées et ses
+  intentions. Il gagne un bonus de +2 aux tests de Bluff et de Déguisement, ainsi
+  qu’aux jets de sauvegarde pour résister aux sorts et effets permettant de lire dans
+  son esprit(comme détection de pensée et détection du mensonge). '
+class_name: []
+--- !<ClassFeat>
+class_feat_description: Le tueur est formé au maniement des poisons et ne peut pas
+  s’empoisonner accidentellement quand il en applique un sur une arme.DESCRIPTION
+  DES TALENTS DE MAÎTRE TUEUR
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Grâce à ce talent, un tueur peut occire les adversairesincapables
+  de se défendre. Pour assassiner une cible,il doit d’abord l’étudier pendant 1 round
+  par une action simple.Au round suivant, s’il réussit une attaque sournoise contre
+  lacible et qu’elle ne bénéficie pas de son bonus de Dextérité àla CA, l’attaque
+  sournoise peut la tuer. Cette tentative échoueautomatiquement si la cible identifie
+  le tueur comme étant unennemi. Si le tueur réussit son attaque sournoise, la victime
+  doitréussir un jet de Vigueur DD = 10 + 1/2 niveau du tueur + sonmodificateur d’Intelligence.
+  Si la cible rate ce jet, elle meurt,sinon, elle subit les dégâts de l’attaque sournoise
+  normale et elleest immunisée contre le pouvoir d’assassinat de ce tueur pendant24
+  heures.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Le tueur peut utiliser la Discrétionpour se cacher au sein
+  de son environnement de prédilection,même si ce dernier n’offre, normalement, ni
+  abri ni camouflage.Pour choisir ce talent, le tueur doit posséder le talent maîtrisedu
+  terrain.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: ' Un tueur doté de ce pouvoir se déplacedans les taillis (qu’il
+  s’agisse d’épineux, de zones broussailleuses,de ronciers ou autre) à sa vitesse
+  normale, sans subirde dégâts ni souffrir de la moindre gêne. Un environnementenchanté
+  ou modifié par magie afin de gêner les déplacementsaffecte le tueur normalement.'
+class_name: []
+--- !<ClassFeat>
+class_feat_description: " Un tueur peutchoisir l’un des talents de maître roublard\
+  \ ou de maître ninjasuivant au lieu d’un talent de maître tueur Talents• Attaque\
+  \ sournoise mortelle*, Coup assommant, Esquive extraordinaire• Maître du déguisement,\
+  \ Opportunisme, Surprise du chasseur• Tireur discretUn tueur peut choisir ce talent\
+  \ à plusieurs reprises.\t"
+class_name: []
