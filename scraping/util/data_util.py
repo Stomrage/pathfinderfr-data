@@ -1,3 +1,4 @@
+from enum import Enum
 from typing import List
 import re
 
@@ -475,27 +476,38 @@ competence_names = ["Acrobaties",
                     "Vol"]
 
 
-def __verify_text_correspondence(text: str, words: List[str]):
+class ComparisonMethod(Enum):
+    EQUAL = 1
+    INSIDE = 2
+
+
+def __verify_text_correspondence(text: str, words: List[str], comparison_method: ComparisonMethod = ComparisonMethod.EQUAL):
     normalized_text = unidecode.unidecode(text.lower().replace("-", " "))
     normalized_words = list(map(lambda x: unidecode.unidecode(x.lower()), words))
-    return list(filter(lambda x: x == normalized_text, normalized_words))
+    if comparison_method == ComparisonMethod.EQUAL:
+        compare = lambda x: x == normalized_text
+    elif comparison_method == ComparisonMethod.INSIDE:
+        compare = lambda x: x in normalized_text
+    else:
+        compare = lambda x: False
+    return list(filter(compare, normalized_words))
 
 
 # TODO refractor this function to a single function that take an array an transform it back to an array of match
-def verify_archetype(text: str):
+def verify_archetype(text: str, comparison_method: ComparisonMethod = ComparisonMethod.EQUAL):
     # TODO fix on the website on https://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Les%20arch%C3%A9types%20de%20classes.ashx
     # TODO The title for the link Maitre Invocateur is called Maitre Conjurateur
     # FIX MAITRE INVOCATEUR
     if text == "Maître Conjurateur":
         text = "Maitre Invocateur"
     # ENDFIX MAITRE INVOCATEUR
-    return __verify_text_correspondence(text, archetype_names)
+    return __verify_text_correspondence(text, archetype_names, comparison_method)
 
 
-def verify_class(text: str):
+def verify_class(text: str, comparison_method: ComparisonMethod = ComparisonMethod.EQUAL):
     text = re.search("(?:[Ll][ae] |[Ll]')?([^() ]*)(?: \(.*\))?", text)[1]
-    return __verify_text_correspondence(text, class_names)
+    return __verify_text_correspondence(text, class_names, comparison_method)
 
 
-def verify_competence(text: str):
-    return __verify_text_correspondence(text, competence_names)
+def verify_competence(text: str, comparison_method: ComparisonMethod = ComparisonMethod.EQUAL):
+    return __verify_text_correspondence(text, competence_names, comparison_method)
