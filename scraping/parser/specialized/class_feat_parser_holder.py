@@ -26,11 +26,15 @@ class ClassFeatParserHolder(ParserForHolder):
         else:
             self.class_name = None
 
-    def parse_metadata(self, meta_text):
+    def parse_metadata(self, meta_texts: List[str]):
         if self.class_name is None:
-            class_name = (data_util.verify_class(meta_text, ComparisonMethod.INSIDE))
-            if len(class_name) == 1:
-                self.class_name = class_name[0]
+            found_texts = []
+            for meta_text in meta_texts:
+                class_name = (data_util.verify_class(meta_text, ComparisonMethod.INSIDE))
+                if len(class_name) == 1:
+                    found_texts.append(class_name[0])
+            if len(found_texts) == 1:
+                self.class_name = found_texts[0]
             else:
                 self.class_name = None
 

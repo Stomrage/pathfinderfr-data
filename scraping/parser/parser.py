@@ -61,7 +61,7 @@ class Parser(Generic[T], ABC):
         self.parse_title(libhtml.cleanInlineDescription(data_content.content.select_one("h1.pagetitle").string))
         keywords = data_content.content.parent.select_one("meta[name='keywords']")
         if keywords is not None:
-            self.parse_metadata(keywords["content"])
+            self.parse_metadata(keywords["content"].split(","))
         self.parse_html(data_content)
         self.abstract_run()
 
