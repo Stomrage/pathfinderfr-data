@@ -3248,7 +3248,7 @@ progress_list:
     Vigueur: '+12'
     Volonté: '+6'
 --- !<Classe>
-class_name: Prêtre
+class_name: Prêtre combattant
 classe_description: 'Capables d’utiliser la puissance des dieux sous forme de bénédictions
   et de sorts, les prêtres combattants mêlent magie divine et talents martiaux. Ce
   sont d’imprenables bastions de leur religion qui chantent les louanges de leur dieu

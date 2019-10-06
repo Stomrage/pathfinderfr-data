@@ -488,10 +488,13 @@ def __verify_text_correspondence(text: str, words: List[str],
     if comparison_method == ComparisonMethod.EQUAL:
         compare = lambda x: x["normalized"] == normalized_text
     elif comparison_method == ComparisonMethod.INSIDE:
-        compare = lambda x: x["normalized"] in normalized_text
+        compare = lambda x: re.search(" {word}|'{word}|^{word}$".format(word=x["normalized"]), normalized_text)
     else:
         compare = lambda x: False
-    return list(map(lambda x: x["word"], filter(compare, normalized_words)))
+    results = list(map(lambda x: x["word"], filter(compare, normalized_words)))
+    return results
+
+
 
 
 # TODO refractor this function to a single function that take an array an transform it back to an array of match

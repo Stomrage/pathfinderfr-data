@@ -8,6 +8,7 @@ from scraping.parser.parser_for_holder import ParserForHolder
 from scraping.model.classe import Classe
 from scraping.model.holder import Holder
 from scraping.util import data_util
+from scraping.util.data_util import ComparisonMethod
 
 
 class ClassParserHolder(ParserForHolder):
@@ -65,7 +66,7 @@ class ClassParserHolder(ParserForHolder):
         classe.progress_list = self.__retrieve_progress(data_content.content.select_one("table.tablo"))
 
     def parse_title(self, title_text):
-        class_name = (data_util.verify_class(title_text))
+        class_name = (data_util.verify_class(title_text, ComparisonMethod.INSIDE))
         assert len(class_name) == 1
         class_name = class_name[0]
         if class_name is not None:
