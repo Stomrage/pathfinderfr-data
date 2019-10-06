@@ -11,6 +11,9 @@ from scraping.util import data_util
 
 
 class ClassParserHolder(ParserForHolder):
+    def parse_metadata(self, meta_text):
+        pass
+
     class_name: str = None
 
     def create_data(self) -> Holder:

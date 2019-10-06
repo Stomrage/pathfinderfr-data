@@ -506,7 +506,6 @@ def verify_archetype(text: str, comparison_method: ComparisonMethod = Comparison
 
 
 def verify_class(text: str, comparison_method: ComparisonMethod = ComparisonMethod.EQUAL):
-    text = re.search("(?:[Ll][ae] |[Ll]')?([^() ]*)(?: \(.*\))?", text)[1]
     return __verify_text_correspondence(text, class_names, comparison_method)
 
 

@@ -11,4 +11,3 @@ class ClassFeat(Holder):
     yaml_tag = u"ClassFeat"
     class_feat_name: str = None
     class_feat_description: str = None
-    class_feat_level: int = None

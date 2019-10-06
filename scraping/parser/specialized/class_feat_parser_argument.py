@@ -7,6 +7,15 @@ from scraping.parser.parser_for_argument import ParserForArgument
 
 class ClassFeatParserArgument(ParserForArgument):
 
+    def parse_title(self, title_text):
+        pass
+
+    def abstract_run(self):
+        pass
+
+    def parse_metadata(self, meta_text):
+        pass
+
     def __retrieve_class_feat_link(self, class_feat_anchor):
         return class_feat_anchor["href"]
 
@@ -19,9 +28,3 @@ class ClassFeatParserArgument(ParserForArgument):
                                           re.compile(".*(?:pouvoirs|talents|exploits).*", re.IGNORECASE))])
         for anchor_link in filtered_anchor_link:
             self.add_data(self.PATHFINDER_FR_URL + parse.quote(parse.unquote(anchor_link)))
-
-    def parse_title(self, title_text):
-        pass
-
-    def abstract_run(self):
-        pass

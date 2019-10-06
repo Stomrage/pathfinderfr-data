@@ -10,6 +10,9 @@ from scraping.util import data_util
 
 
 class ArchetypeParserHolder(ParserForHolder):
+    def parse_metadata(self, meta_text):
+        pass
+
     class_name: str = None
     archetype_name: str = None
 
@@ -25,7 +28,6 @@ class ArchetypeParserHolder(ParserForHolder):
         )
 
     def parse_title(self, title_text):
-        print(title_text)
         title_search = re.search("([^()]*)(\(.*\))?", title_text)
         archetype_name = data_util.verify_archetype(title_search[1].strip())
         assert len(archetype_name) == 1

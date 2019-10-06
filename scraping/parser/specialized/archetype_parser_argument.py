@@ -6,6 +6,15 @@ from scraping.parser.parser_for_argument import ParserForArgument
 
 class ArchetypeParserArgument(ParserForArgument):
 
+    def parse_title(self, title_text):
+        pass
+
+    def abstract_run(self):
+        pass
+
+    def parse_metadata(self, meta_text):
+        pass
+
     def __retrieve_archetype_link(self, archetype_list_anchor):
         archetype_link = archetype_list_anchor["href"]
         if re.search(r"\([a-zA-Z%0-9]+\)\.ashx$", archetype_link) and "race" not in archetype_link:
@@ -20,10 +29,3 @@ class ArchetypeParserArgument(ParserForArgument):
                 in data_content.content.select("div.presentation.navmenudroite > ul > li > a")])
         for anchor_link in filtered_anchor_link:
             self.add_data(self.PATHFINDER_FR_URL+anchor_link)
-
-    def parse_title(self, title_text):
-        pass
-        # print(title_text)
-
-    def abstract_run(self):
-        pass
