@@ -481,16 +481,17 @@ class ComparisonMethod(Enum):
     INSIDE = 2
 
 
-def __verify_text_correspondence(text: str, words: List[str], comparison_method: ComparisonMethod = ComparisonMethod.EQUAL):
+def __verify_text_correspondence(text: str, words: List[str],
+                                 comparison_method: ComparisonMethod = ComparisonMethod.EQUAL):
     normalized_text = unidecode.unidecode(text.lower().replace("-", " "))
-    normalized_words = list(map(lambda x: unidecode.unidecode(x.lower()), words))
+    normalized_words = list(map(lambda x: {"normalized": unidecode.unidecode(x.lower()), "word": x}, words))
     if comparison_method == ComparisonMethod.EQUAL:
-        compare = lambda x: x == normalized_text
+        compare = lambda x: x["normalized"] == normalized_text
     elif comparison_method == ComparisonMethod.INSIDE:
-        compare = lambda x: x in normalized_text
+        compare = lambda x: x["normalized"] in normalized_text
     else:
         compare = lambda x: False
-    return list(filter(compare, normalized_words))
+    return list(map(lambda x: x["word"], filter(compare, normalized_words)))
 
 
 # TODO refractor this function to a single function that take an array an transform it back to an array of match

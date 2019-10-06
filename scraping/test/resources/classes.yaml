@@ -1,5 +1,5 @@
 !<Classe>
-class_name: barbare
+class_name: Barbare
 classe_description: 'Pour certains individus, tout n’est que rage. Que ce soit dans
   les coutumes de leur peuple, dans la fureur de leurs passions ou dans leurs cris
   de bataille, la seule chose qu’ils connaissent est le conflit. Il s’agit de sauvages,
@@ -19,108 +19,108 @@ classe_description: 'Pour certains individus, tout n’est que rage. Que ce soit
 competence_de_classe: []
 de_vie: d12
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+0'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+2'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+3'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+4'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+5'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+6'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+0'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+2'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+3'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+4'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+5'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+6'
 --- !<Classe>
-class_name: barde
+class_name: Barde
 classe_description: 'Pour ceux qui sont capables de les découvrir, le monde contient
   des merveilles insoupçonnées et de nombreux mystères. C’est grâce à leur intelligence,
   leur habileté et leur magie que quelques individus rusés percent les secrets du
@@ -137,108 +137,108 @@ classe_description: 'Pour ceux qui sont capables de les découvrir, le monde con
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+0'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+0'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+1'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+2'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+3'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+4'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+5'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+6'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+0'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+0'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+1'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+2'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+3'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+4'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+5'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+6'
+    Volonté: '+12'
 --- !<Classe>
-class_name: druide
+class_name: Druide
 classe_description: 'Il existe dans la pureté des éléments et dans l’organisation
   de la nature un pouvoir qui dépasse les merveilles de la civilisation. Cette magie
   brute, discrète mais indéniable, est protégée par des adeptes de la philosophie
@@ -254,108 +254,108 @@ classe_description: 'Il existe dans la pureté des éléments et dans l’organi
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+12'
 --- !<Classe>
-class_name: ensorceleur
+class_name: Ensorceleur
 classe_description: 'Un ensorceleur peut être l’héritier d’une lignée où le contrôle
   de la magie vient naturellement, l’élu d’une divinité, le rejeton d’une créature
   monstrueuse, un pion du destin ou simplement le récipiendaire d’un pouvoir magique
@@ -377,108 +377,108 @@ classe_description: 'Un ensorceleur peut être l’héritier d’une lignée où
 competence_de_classe: []
 de_vie: d6
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+3'
-- BBA: '+1'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+2'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+3'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+4'
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+6'
-- BBA: '+4'
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+6'
-- BBA: '+5'
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: '+5'
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +6/+1
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +6/+1
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +7/+2
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+9'
-- BBA: +7/+2
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+9'
-- BBA: +8/+3
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +8/+3
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +9/+4
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+3'
+  - BBA: '+1'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+2'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+3'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+4'
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+6'
+  - BBA: '+4'
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+6'
+  - BBA: '+5'
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: '+5'
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +6/+1
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +6/+1
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +7/+2
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+9'
+  - BBA: +7/+2
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+9'
+  - BBA: +8/+3
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +8/+3
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +9/+4
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+12'
 --- !<Classe>
-class_name: guerrier
+class_name: Guerrier
 classe_description: 'Certains prennent les armes en quête de gloire, de richesse,
   ou de vengeance. D’autres combattent pour faire leurs preuves, pour protéger des
   proches ou parce qu’ils ne savent rien faire d’autre. Et d’autres encore s’engagent
@@ -496,108 +496,108 @@ classe_description: 'Certains prennent les armes en quête de gloire, de richess
 competence_de_classe: []
 de_vie: d10
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+0'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+2'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+3'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+4'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+5'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+6'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+0'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+2'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+3'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+4'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+5'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+6'
 --- !<Classe>
-class_name: magicien
+class_name: Magicien
 classe_description: 'Au-delà du voile du monde de tous les jours se cachent les mystères
   du pouvoir absolu. Les œuvres des êtres supérieurs aux mortels, les légendes des
   royaumes où vivent les dieux et les esprits, les actes créateurs à la fois merveilleux
@@ -615,108 +615,108 @@ classe_description: 'Au-delà du voile du monde de tous les jours se cachent les
 competence_de_classe: []
 de_vie: d6
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+3'
-- BBA: '+1'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+2'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+3'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+4'
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+6'
-- BBA: '+4'
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+6'
-- BBA: '+5'
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: '+5'
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +6/+1
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +6/+1
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +7/+2
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+9'
-- BBA: +7/+2
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+9'
-- BBA: +8/+3
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +8/+3
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +9/+4
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+3'
+  - BBA: '+1'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+2'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+3'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+4'
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+6'
+  - BBA: '+4'
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+6'
+  - BBA: '+5'
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: '+5'
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +6/+1
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +6/+1
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +7/+2
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+9'
+  - BBA: +7/+2
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+9'
+  - BBA: +8/+3
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +8/+3
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +9/+4
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+12'
 --- !<Classe>
-class_name: moine
+class_name: Moine
 classe_description: 'Pour certains individus réellement exemplaires, l’art du combat
   ne se limite pas au champ de bataille : il s’agit d’un mode de vie, d’une doctrine,
   d’un état d’esprit. Ces artistes-combattants recherchent des méthodes de combat
@@ -731,108 +731,108 @@ classe_description: 'Pour certains individus réellement exemplaires, l’art du
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+12'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+12'
+    Volonté: '+12'
 --- !<Classe>
-class_name: paladin
+class_name: Paladin
 classe_description: 'À travers quelques rares et vertueux élus, on peut voir briller
   la puissance divine. Ces âmes nobles qu’on appelle paladins dévouent leur épée et
   leur vie au combat contre le mal. À la fois chevaliers, croisés et justiciers, les
@@ -849,108 +849,108 @@ classe_description: 'À travers quelques rares et vertueux élus, on peut voir b
 competence_de_classe: []
 de_vie: d10
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+12'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+12'
 --- !<Classe>
-class_name: pretre
+class_name: Prêtre
 classe_description: 'La foi et les miracles divins suscitent des vocations. Les prêtres,
   ces êtres appelés à servir des puissances qui dépassent l’entendement de la plupart
   des mortels, en prêchent les merveilles et satisfont les besoins spirituels de leur
@@ -967,108 +967,108 @@ classe_description: 'La foi et les miracles divins suscitent des vocations. Les 
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+12'
 --- !<Classe>
-class_name: rodeur
+class_name: Rôdeur
 classe_description: 'Pour ceux qui aiment le frisson de la chasse, seules comptent
   les notions de prédateurs et de proies. Qu’ils soient éclaireurs, pisteurs ou chasseurs
   de prime, les rôdeurs partagent de nombreuses particularités : une maîtrise inégalée
@@ -1083,108 +1083,108 @@ classe_description: 'Pour ceux qui aiment le frisson de la chasse, seules compte
 competence_de_classe: []
 de_vie: d10
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+0'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+2'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+3'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+4'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+5'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+12'
-  Volonté: '+6'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+0'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+2'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+3'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+4'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+5'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+12'
+    Volonté: '+6'
 --- !<Classe>
-class_name: roublard
+class_name: Roublard
 classe_description: 'Pour ceux qui subsistent grâce à leur vivacité d’esprit, la vie
   est une aventure sans fin. Ces roublards qui semblent toujours sentir le danger
   à l’avance comptent sur leur ruse, leur habileté et leur charme pour tourner le
@@ -1204,108 +1204,108 @@ classe_description: 'Pour ceux qui subsistent grâce à leur vivacité d’espri
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+0'
-  Volonté: '+0'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+0'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+1'
-  Volonté: '+1'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+1'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+6'
-  Volonté: '+6'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+0'
+    Volonté: '+0'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+0'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+1'
+    Volonté: '+1'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+1'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+6'
+    Volonté: '+6'
 --- !<Classe>
-class_name: alchimiste
+class_name: Alchimiste
 classe_description: Qu’il se terre dans un laboratoire souterrain secret ou qu’il
   mène gaiement ses expériences dans une école de magie respectable, on considère
   souvent l’alchimiste comme aussi instable, imprévisible et dangereux que les potions
@@ -1319,108 +1319,108 @@ classe_description: Qu’il se terre dans un laboratoire souterrain secret ou qu
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+0'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+1'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+2'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+3'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+4'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+5'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+12'
-  Volonté: '+6'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+0'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+1'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+2'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+3'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+4'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+5'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+12'
+    Volonté: '+6'
 --- !<Classe>
-class_name: antipaladin
+class_name: Antipaladin
 classe_description: 'Cela ne se produit que rarement, mais certains paladins s’éloignent
   du chemin de la vertu. La plupart de ces guerriers saints égarés cherchent la rédemption
   et le pardon pour leurs mauvaises actions et récupèrent ensuite leurs pouvoirs en
@@ -1449,108 +1449,108 @@ classe_description: 'Cela ne se produit que rarement, mais certains paladins s�
 competence_de_classe: []
 de_vie: d10
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+12'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+12'
 --- !<Classe>
-class_name: chevalier
+class_name: Chevalier
 classe_description: Alors que de nombreux combattants cherchent à perfectionner leur
   art et passent leur temps à améliorer leurs talents martiaux, d’autres consacrent
   autant d’efforts à combattre pour leur cause. Ces guerriers appelés des chevaliers
@@ -1562,108 +1562,108 @@ classe_description: Alors que de nombreux combattants cherchent à perfectionner
 competence_de_classe: []
 de_vie: d10
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+0'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+2'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+3'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+4'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+5'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+6'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+0'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+2'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+3'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+4'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+5'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+6'
 --- !<Classe>
-class_name: conjurateur
+class_name: Conjurateur
 classe_description: 'Beaucoup de pratiquants des arts profanes savent appeler des
   monstres issus des endroits les plus reculés des plans, mais aucun n’égale le conjurateur.
   Cet adepte de la magie profane forme un lien étroit avec un extérieur particulier,
@@ -1675,108 +1675,108 @@ classe_description: 'Beaucoup de pratiquants des arts profanes savent appeler de
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+12'
 --- !<Classe>
-class_name: inquisiteur
+class_name: Inquisiteur
 classe_description: Sombre et déterminé, l'inquisiteur débusque les ennemis de la
   foi et use de tromperie et de ruse quand la vertu et la pureté ne suffisent pas.
   Même si les inquisiteurs sont dévoués à une divinité, ils sont au-dessus des règles
@@ -1786,108 +1786,108 @@ classe_description: Sombre et déterminé, l'inquisiteur débusque les ennemis d
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+12'
 --- !<Classe>
-class_name: oracle
+class_name: Oracle
 classe_description: Les dieux œuvrent par l’intermédiaire de bien des agents mais
   aucun n’est aussi mystérieux que l’oracle. Ces réceptacles divins reçoivent des
   pouvoirs sans avoir eu le choix et seule la providence choisit les oracles à qui
@@ -1901,108 +1901,108 @@ classe_description: Les dieux œuvrent par l’intermédiaire de bien des agents
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+12'
 --- !<Classe>
-class_name: sorciere
+class_name: Sorcière
 classe_description: Certains atteignent la puissance grâce à leurs études, d’autres
   par leur dévotion et d’autres encore par le sang mais la sorcière tire ses pouvoirs
   de sa communion avec l’inconnu. Crainte et incomprise, elle puise sa magie dans
@@ -2015,108 +2015,108 @@ classe_description: Certains atteignent la puissance grâce à leurs études, d�
 competence_de_classe: []
 de_vie: d6
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+3'
-- BBA: '+1'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+2'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+3'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+4'
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+6'
-- BBA: '+4'
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+6'
-- BBA: '+5'
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: '+5'
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +6/+1
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +6/+1
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +7/+2
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+9'
-- BBA: +7/+2
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+9'
-- BBA: +8/+3
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +8/+3
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +9/+4
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+3'
+  - BBA: '+1'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+2'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+3'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+4'
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+6'
+  - BBA: '+4'
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+6'
+  - BBA: '+5'
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: '+5'
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +6/+1
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +6/+1
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +7/+2
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+9'
+  - BBA: +7/+2
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+9'
+  - BBA: +8/+3
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +8/+3
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +9/+4
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+12'
 --- !<Classe>
-class_name: magus
+class_name: Magus
 classe_description: Il y a des gens qui passent leur vie à lire d’anciens ouvrages
   et des textes antiques pour obtenir des pouvoirs magiques et d’autres qui consacrent
   tout leur temps à améliorer leur maîtrise des armes pour devenir des maîtres inégalés.
@@ -2129,108 +2129,108 @@ classe_description: Il y a des gens qui passent leur vie à lire d’anciens ouv
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+0'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+0'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+1'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+2'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+3'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+4'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+5'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+6'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+0'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+0'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+1'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+2'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+3'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+4'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+5'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+6'
+    Volonté: '+12'
 --- !<Classe>
-class_name: ninja
+class_name: Ninja
 classe_description: Quand les riches et les puissants veulent éliminer un ennemi discrètement
   et à coup sûr, ils font appel à un ninja. Quand un général doit saboter les engins
   de siège adverses avant qu’ils n’atteignent les murs de son château, il fait appel
@@ -2242,108 +2242,108 @@ classe_description: Quand les riches et les puissants veulent éliminer un ennem
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+0'
-  Volonté: '+0'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+0'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+1'
-  Volonté: '+1'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+1'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+6'
-  Volonté: '+6'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+0'
+    Volonté: '+0'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+0'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+1'
+    Volonté: '+1'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+1'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+6'
+    Volonté: '+6'
 --- !<Classe>
-class_name: pistolier
+class_name: Pistolier
 classe_description: Pour certains rebelles, les batailles ne font pas le même bruit
   que pour un guerrier classique. Le fracas de l’acier et les crépitements d’énergie
   magiques sont noyés sous le tonnerre des coups de feu qui sont autant de roulements
@@ -2356,108 +2356,108 @@ classe_description: Pour certains rebelles, les batailles ne font pas le même b
 competence_de_classe: []
 de_vie: d10
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+0'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+2'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+3'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+4'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+5'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+12'
-  Volonté: '+6'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+0'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+2'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+3'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+4'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+5'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+12'
+    Volonté: '+6'
 --- !<Classe>
-class_name: samourai
+class_name: Samouraï
 classe_description: Peu de guerriers montrent autant de dévotion envers le code de
   l’honneur et de la chevalerie que le samouraï. Dès son plus jeune âge, il est formé
   aux arts de la guerre et jure fidélité à un seigneur. Dans de nombreux pays, il
@@ -2471,108 +2471,108 @@ classe_description: Peu de guerriers montrent autant de dévotion envers le code
 competence_de_classe: []
 de_vie: d10
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+0'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+2'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+3'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+4'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+5'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+6'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+0'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+2'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+3'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+4'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+5'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+6'
 --- !<Classe>
-class_name: arcaniste
+class_name: Arcaniste
 classe_description: Certains lanceurs de sorts cherchent à percer les secrets de la
   magie et à obtenir assez de puissance pour réussir l’impossible. D’autres naissent
   avec des pouvoirs magiques innés et contrôlent des forces incroyables aussi facilement
@@ -2584,108 +2584,108 @@ classe_description: Certains lanceurs de sorts cherchent à percer les secrets d
 competence_de_classe: []
 de_vie: d6
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+3'
-- BBA: '+1'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+2'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+3'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+4'
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+6'
-- BBA: '+4'
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+6'
-- BBA: '+5'
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: '+5'
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +6/+1
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +6/+1
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +7/+2
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+9'
-- BBA: +7/+2
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+9'
-- BBA: +8/+3
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +8/+3
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +9/+4
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+3'
+  - BBA: '+1'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+2'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+3'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+4'
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+6'
+  - BBA: '+4'
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+6'
+  - BBA: '+5'
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: '+5'
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +6/+1
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +6/+1
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +7/+2
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+9'
+  - BBA: +7/+2
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+9'
+  - BBA: +8/+3
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +8/+3
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +9/+4
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+12'
 --- !<Classe>
-class_name: bretteur
+class_name: Bretteur
 classe_description: De nombreux guerriers mènent leurs combats engoncés dans de lourdes
   armures, de larges et puissantes armes au poing mais les bretteurs privilégient
   la vitesse, l’agilité et le panache. Ils entrent et sortent de la mêlée en un éclair,
@@ -2700,108 +2700,108 @@ classe_description: De nombreux guerriers mènent leurs combats engoncés dans d
 competence_de_classe: []
 de_vie: d10
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+0'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+0'
-  Volonté: '+0'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+1'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+1'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+1'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+6'
-  Volonté: '+6'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+0'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+0'
+    Volonté: '+0'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+1'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+1'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+1'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+6'
+    Volonté: '+6'
 --- !<Classe>
-class_name: chaman
+class_name: Chaman
 classe_description: Certains héros parlent aux dieux ou batifolent avec des muses
   issues d’autres mondes mais le chaman communique avec les esprits du monde et les
   énergies qui habitent tout être vivant. Ces aventuriers divins utilisent leur pouvoir
@@ -2812,108 +2812,108 @@ classe_description: Certains héros parlent aux dieux ou batifolent avec des mus
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+0'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+0'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+12'
 --- !<Classe>
-class_name: chasseur
+class_name: Chasseur
 classe_description: Les chasseurs sont des combattants des terres sauvages qui ont
   tissé des liens étroits avec de fidèles compagnons animaux. Ils ont développé des
   tactiques leur permettant de se battre aux côtés de leur compagnon en formant un
@@ -2922,108 +2922,108 @@ classe_description: Les chasseurs sont des combattants des terres sauvages qui o
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+0'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+1'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+2'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+3'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+4'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+5'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+12'
-  Volonté: '+6'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+0'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+1'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+2'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+3'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+4'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+5'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+12'
+    Volonté: '+6'
 --- !<Classe>
-class_name: enqueteur
+class_name: Enquêteur
 classe_description: Que l’enquêteur soit sur la piste d’un fugitif, d’un trésor perdu
   ou d’un grand criminel, il est animé d’une immense curiosité vis-à-vis du monde
   et utilise ses connaissances comme une arme. Mêlant cran et érudition en une alchimie
@@ -3037,108 +3037,108 @@ classe_description: Que l’enquêteur soit sur la piste d’un fugitif, d’un 
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+0'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+0'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+1'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+1'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+2'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+2'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+3'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+3'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+4'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+4'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+5'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+5'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+6'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+6'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+0'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+0'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+1'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+1'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+2'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+2'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+3'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+3'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+4'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+4'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+5'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+5'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+6'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+6'
+    Volonté: '+12'
 --- !<Classe>
-class_name: lutteur
+class_name: Lutteur
 classe_description: Le lutteur est un adversaire mortel, même quand il se bat à mains
   nues. Il renonce à la lourde armure du guerrier et au mysticisme du moine afin de
   se consacrer au perfectionnement de diverses écoles de combat à mains nues particulièrement
@@ -3147,108 +3147,108 @@ classe_description: Le lutteur est un adversaire mortel, même quand il se bat �
 competence_de_classe: []
 de_vie: d10
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+0'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+2'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+3'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+4'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+5'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+12'
-  Volonté: '+6'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+0'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+2'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+3'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+4'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+5'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+12'
+    Volonté: '+6'
 --- !<Classe>
-class_name: pretre
+class_name: Prêtre
 classe_description: 'Capables d’utiliser la puissance des dieux sous forme de bénédictions
   et de sorts, les prêtres combattants mêlent magie divine et talents martiaux. Ce
   sont d’imprenables bastions de leur religion qui chantent les louanges de leur dieu
@@ -3262,108 +3262,108 @@ classe_description: 'Capables d’utiliser la puissance des dieux sous forme de 
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+12'
 --- !<Classe>
-class_name: sanguin
+class_name: Sanguin
 classe_description: Nombre de féroces combattants puisent dans des réserves de rage
   enfouies en eux mais un pouvoir inné bouillonne au coeur des sanguins. Une puissance
   occulte similaire à celle des ensorceleurs coule dans leurs veines. Les ensorceleurs
@@ -3375,108 +3375,108 @@ classe_description: Nombre de féroces combattants puisent dans des réserves de
 competence_de_classe: []
 de_vie: d10
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+0'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+2'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+3'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+4'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+5'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+6'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+0'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+2'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+3'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+4'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+5'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+6'
 --- !<Classe>
-class_name: scalde
+class_name: Scalde
 classe_description: Les scaldes sont des poètes, des historiens et des gardiens du
   savoir qui mettent leurs dons oratoires et leurs chants à profit pour plonger leurs
   alliés dans une rage frénétique. Ils tempèrent leur violence intérieure avec un
@@ -3488,108 +3488,108 @@ classe_description: Les scaldes sont des poètes, des historiens et des gardiens
 competence_de_classe: []
 de_vie: d8
 progress_list:
-- BBA: '+0'
-  Niveau: 1
-  Réflexes: '+0'
-  Vigueur: '+2'
-  Volonté: '+2'
-- BBA: '+1'
-  Niveau: 2
-  Réflexes: '+0'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+2'
-  Niveau: 3
-  Réflexes: '+1'
-  Vigueur: '+3'
-  Volonté: '+3'
-- BBA: '+3'
-  Niveau: 4
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+3'
-  Niveau: 5
-  Réflexes: '+1'
-  Vigueur: '+4'
-  Volonté: '+4'
-- BBA: '+4'
-  Niveau: 6
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: '+5'
-  Niveau: 7
-  Réflexes: '+2'
-  Vigueur: '+5'
-  Volonté: '+5'
-- BBA: +6/+1
-  Niveau: 8
-  Réflexes: '+2'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +6/+1
-  Niveau: 9
-  Réflexes: '+3'
-  Vigueur: '+6'
-  Volonté: '+6'
-- BBA: +7/+2
-  Niveau: 10
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +8/+3
-  Niveau: 11
-  Réflexes: '+3'
-  Vigueur: '+7'
-  Volonté: '+7'
-- BBA: +9/+4
-  Niveau: 12
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +9/+4
-  Niveau: 13
-  Réflexes: '+4'
-  Vigueur: '+8'
-  Volonté: '+8'
-- BBA: +10/+5
-  Niveau: 14
-  Réflexes: '+4'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +11/+6/+1
-  Niveau: 15
-  Réflexes: '+5'
-  Vigueur: '+9'
-  Volonté: '+9'
-- BBA: +12/+7/+2
-  Niveau: 16
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +12/+7/+2
-  Niveau: 17
-  Réflexes: '+5'
-  Vigueur: '+10'
-  Volonté: '+10'
-- BBA: +13/+8/+3
-  Niveau: 18
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +14/+9/+4
-  Niveau: 19
-  Réflexes: '+6'
-  Vigueur: '+11'
-  Volonté: '+11'
-- BBA: +15/+10/+5
-  Niveau: 20
-  Réflexes: '+6'
-  Vigueur: '+12'
-  Volonté: '+12'
+  - BBA: '+0'
+    Niveau: 1
+    Réflexes: '+0'
+    Vigueur: '+2'
+    Volonté: '+2'
+  - BBA: '+1'
+    Niveau: 2
+    Réflexes: '+0'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+2'
+    Niveau: 3
+    Réflexes: '+1'
+    Vigueur: '+3'
+    Volonté: '+3'
+  - BBA: '+3'
+    Niveau: 4
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+3'
+    Niveau: 5
+    Réflexes: '+1'
+    Vigueur: '+4'
+    Volonté: '+4'
+  - BBA: '+4'
+    Niveau: 6
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: '+5'
+    Niveau: 7
+    Réflexes: '+2'
+    Vigueur: '+5'
+    Volonté: '+5'
+  - BBA: +6/+1
+    Niveau: 8
+    Réflexes: '+2'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +6/+1
+    Niveau: 9
+    Réflexes: '+3'
+    Vigueur: '+6'
+    Volonté: '+6'
+  - BBA: +7/+2
+    Niveau: 10
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +8/+3
+    Niveau: 11
+    Réflexes: '+3'
+    Vigueur: '+7'
+    Volonté: '+7'
+  - BBA: +9/+4
+    Niveau: 12
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +9/+4
+    Niveau: 13
+    Réflexes: '+4'
+    Vigueur: '+8'
+    Volonté: '+8'
+  - BBA: +10/+5
+    Niveau: 14
+    Réflexes: '+4'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +11/+6/+1
+    Niveau: 15
+    Réflexes: '+5'
+    Vigueur: '+9'
+    Volonté: '+9'
+  - BBA: +12/+7/+2
+    Niveau: 16
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +12/+7/+2
+    Niveau: 17
+    Réflexes: '+5'
+    Vigueur: '+10'
+    Volonté: '+10'
+  - BBA: +13/+8/+3
+    Niveau: 18
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +14/+9/+4
+    Niveau: 19
+    Réflexes: '+6'
+    Vigueur: '+11'
+    Volonté: '+11'
+  - BBA: +15/+10/+5
+    Niveau: 20
+    Réflexes: '+6'
+    Vigueur: '+12'
+    Volonté: '+12'
 --- !<Classe>
-class_name: tueur
+class_name: Tueur
 classe_description: Le tueur est un chasseur expérimenté, particulièrement doué pour
   traquer ses proies. Il ne vit que pour le frisson de la chasse et le coup de grâce
   qui la clôture. Un tueur passe son temps à affiner ses talents martiaux, à étudier
@@ -3597,103 +3597,103 @@ classe_description: Le tueur est un chasseur expérimenté, particulièrement do
 competence_de_classe: []
 de_vie: d10
 progress_list:
-- BBA: '+1'
-  Niveau: 1
-  Réflexes: '+2'
-  Vigueur: '+2'
-  Volonté: '+0'
-- BBA: '+2'
-  Niveau: 2
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+0'
-- BBA: '+3'
-  Niveau: 3
-  Réflexes: '+3'
-  Vigueur: '+3'
-  Volonté: '+1'
-- BBA: '+4'
-  Niveau: 4
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: '+5'
-  Niveau: 5
-  Réflexes: '+4'
-  Vigueur: '+4'
-  Volonté: '+1'
-- BBA: +6/+1
-  Niveau: 6
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +7/+2
-  Niveau: 7
-  Réflexes: '+5'
-  Vigueur: '+5'
-  Volonté: '+2'
-- BBA: +8/+3
-  Niveau: 8
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+2'
-- BBA: +9/+4
-  Niveau: 9
-  Réflexes: '+6'
-  Vigueur: '+6'
-  Volonté: '+3'
-- BBA: +10/+5
-  Niveau: 10
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +11/+6/+1
-  Niveau: 11
-  Réflexes: '+7'
-  Vigueur: '+7'
-  Volonté: '+3'
-- BBA: +12/+7/+2
-  Niveau: 12
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +13/+8/+3
-  Niveau: 13
-  Réflexes: '+8'
-  Vigueur: '+8'
-  Volonté: '+4'
-- BBA: +14/+9/+4
-  Niveau: 14
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+4'
-- BBA: +15/+10/+5
-  Niveau: 15
-  Réflexes: '+9'
-  Vigueur: '+9'
-  Volonté: '+5'
-- BBA: +16/+11/+6/+1
-  Niveau: 16
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +17/+12/+7/+2
-  Niveau: 17
-  Réflexes: '+10'
-  Vigueur: '+10'
-  Volonté: '+5'
-- BBA: +18/+13/+8/+3
-  Niveau: 18
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +19/+14/+9/+4
-  Niveau: 19
-  Réflexes: '+11'
-  Vigueur: '+11'
-  Volonté: '+6'
-- BBA: +20/+15/+10/+5
-  Niveau: 20
-  Réflexes: '+12'
-  Vigueur: '+12'
-  Volonté: '+6'
+  - BBA: '+1'
+    Niveau: 1
+    Réflexes: '+2'
+    Vigueur: '+2'
+    Volonté: '+0'
+  - BBA: '+2'
+    Niveau: 2
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+0'
+  - BBA: '+3'
+    Niveau: 3
+    Réflexes: '+3'
+    Vigueur: '+3'
+    Volonté: '+1'
+  - BBA: '+4'
+    Niveau: 4
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: '+5'
+    Niveau: 5
+    Réflexes: '+4'
+    Vigueur: '+4'
+    Volonté: '+1'
+  - BBA: +6/+1
+    Niveau: 6
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +7/+2
+    Niveau: 7
+    Réflexes: '+5'
+    Vigueur: '+5'
+    Volonté: '+2'
+  - BBA: +8/+3
+    Niveau: 8
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+2'
+  - BBA: +9/+4
+    Niveau: 9
+    Réflexes: '+6'
+    Vigueur: '+6'
+    Volonté: '+3'
+  - BBA: +10/+5
+    Niveau: 10
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +11/+6/+1
+    Niveau: 11
+    Réflexes: '+7'
+    Vigueur: '+7'
+    Volonté: '+3'
+  - BBA: +12/+7/+2
+    Niveau: 12
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +13/+8/+3
+    Niveau: 13
+    Réflexes: '+8'
+    Vigueur: '+8'
+    Volonté: '+4'
+  - BBA: +14/+9/+4
+    Niveau: 14
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+4'
+  - BBA: +15/+10/+5
+    Niveau: 15
+    Réflexes: '+9'
+    Vigueur: '+9'
+    Volonté: '+5'
+  - BBA: +16/+11/+6/+1
+    Niveau: 16
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +17/+12/+7/+2
+    Niveau: 17
+    Réflexes: '+10'
+    Vigueur: '+10'
+    Volonté: '+5'
+  - BBA: +18/+13/+8/+3
+    Niveau: 18
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +19/+14/+9/+4
+    Niveau: 19
+    Réflexes: '+11'
+    Vigueur: '+11'
+    Volonté: '+6'
+  - BBA: +20/+15/+10/+5
+    Niveau: 20
+    Réflexes: '+12'
+    Vigueur: '+12'
+    Volonté: '+6'

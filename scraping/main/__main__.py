@@ -12,7 +12,7 @@ from scraping.parser.specialized.class_feat_parser_holder import ClassFeatParser
 from data import data_accessor
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.INFO)
 
     class_parser_argument_args = [
         "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG.Classes.ashx"
@@ -20,12 +20,12 @@ if __name__ == "__main__":
     class_parser_argument = ClassParserArgument(class_parser_argument_args)
     class_parser_holder_args = class_parser_argument.run(mock_option=MockOption.ONLY_MOCK)
 
-    class_feat_parser_argument = ClassFeatParserArgument(class_parser_holder_args)
-    class_feat_holder_args = class_feat_parser_argument.run(MockOption.ONLY_MOCK)
-
-    class_feat_parser_holder = ClassFeatParserHolder(class_feat_holder_args)
-    talents = class_feat_parser_holder.run(mock_option=MockOption.ONLY_MOCK)
-    data_accessor.save_yaml("new_talents.yaml", talents)
+    # class_feat_parser_argument = ClassFeatParserArgument(class_parser_holder_args)
+    # class_feat_holder_args = class_feat_parser_argument.run(MockOption.ONLY_MOCK)
+    #
+    # class_feat_parser_holder = ClassFeatParserHolder(class_feat_holder_args)
+    # talents = class_feat_parser_holder.run(mock_option=MockOption.ONLY_MOCK)
+    # data_accessor.save_yaml("new_class_feats.yaml", talents)
 
 
     # class_parser_holder = ClassParserHolder(class_parser_holder_args)
