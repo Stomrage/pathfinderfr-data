@@ -4,6 +4,46 @@ import re
 
 import unidecode
 
+race_names = [
+    "Demi elfe",
+    "Demi orque",
+    "Elfe",
+    "Gnome",
+    "Halfelin",
+    "Humain",
+    "Nain",
+    "Aasimar",
+    "Dhampir",
+    "Drow",
+    "Fetchelin",
+    "Gobelin",
+    "Hobgobelin",
+    "Homme félin",
+    "Homme rat",
+    "Ifrit",
+    "Kobold",
+    "Ondin",
+    "Orque",
+    "Oréade",
+    "Sylphe",
+    "Tengu",
+    "Tieffelin",
+    "Aquatique",
+    "Changelin",
+    "Duergar",
+    "Grippli",
+    "Homme poisson",
+    "Kitsune",
+    "Nagaji",
+    "Samsaran",
+    "Strix",
+    "Suli",
+    "Svirfneblin",
+    "Vanara",
+    "Vishkanya",
+    "Wayang"
+]
+
 archetype_names = [
     "Balafré enragé",
     "Barbare sauvage",
@@ -488,13 +528,15 @@ def __verify_text_correspondence(text: str, words: List[str],
     if comparison_method == ComparisonMethod.EQUAL:
         compare = lambda x: x["normalized"] == normalized_text
     elif comparison_method == ComparisonMethod.INSIDE:
-        compare = lambda x: re.search(" {word}|'{word}|^{word}$".format(word=x["normalized"]), normalized_text)
+        compare = lambda x: re.search(" {word}|'{word}|^{word}$|^{word} ".format(word=x["normalized"]), normalized_text)
     else:
         compare = lambda x: False
     results = list(map(lambda x: x["word"], filter(compare, normalized_words)))
+    if len(results) > 1:
+        results = [max(results, key=lambda x: len(x))]
+    if len(results) == 0:
+        print(text)
     return results
-
-
 
 
 # TODO refractor this function to a single function that take an array an transform it back to an array of match
@@ -506,6 +548,10 @@ def verify_archetype(text: str, comparison_method: ComparisonMethod = Comparison
         text = "Maitre Invocateur"
     # ENDFIX MAITRE INVOCATEUR
     return __verify_text_correspondence(text, archetype_names, comparison_method)
+
+
+def verify_race(text: str, comparison_method: ComparisonMethod = ComparisonMethod.EQUAL):
+    return __verify_text_correspondence(text, race_names, comparison_method)
 
 
 def verify_class(text: str, comparison_method: ComparisonMethod = ComparisonMethod.EQUAL):
